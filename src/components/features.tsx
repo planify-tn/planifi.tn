@@ -43,7 +43,7 @@ function Features() {
                                 ))}
                             </div>
                         </div>
-                        <div className="relative">
+                        <div className="relative hidden lg:block">
                             <div className="aspect-square bg-gray-100 rounded-full overflow-hidden relative">
                                 <img src="/api/placeholder/600/600" alt="Platform Interface" className="absolute inset-0 w-full h-full object-cover" />
                             </div>

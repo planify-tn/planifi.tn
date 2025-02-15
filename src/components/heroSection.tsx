@@ -30,8 +30,10 @@ function HeroSection() {
                 </div>
 
                 {/* Decorative Elements */}
-                <div className="absolute top-1/4 right-8 w-32 h-32 border-2 border-black rotate-45"></div>
-                <div className="absolute bottom-1/4 left-8 w-16 h-16 bg-black rotate-12"></div>
+                <div className='hidden lg:block'>
+                    <div className="absolute top-1/4 right-8 w-32 h-32 border-2 border-black rotate-45"></div>
+                    <div className="absolute bottom-1/4 left-8 w-16 h-16 bg-black rotate-12"></div>
+                </div>
             </div>
         </section>
     )
