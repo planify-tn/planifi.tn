@@ -1,4 +1,5 @@
 import { TSocialsLinks } from '@/lib/type';
+import { ArrowUpRight } from 'lucide-react';
 import React from 'react'
 
 function Footer() {
@@ -43,11 +44,22 @@ function Footer() {
     ];
 
     return (
-        <footer className='mt-24'>
-            <div className='border border-t border-b border-l-0 border-r-0  border-border py-12 lg:px-0 px-4 flex flex-col gap-6 items-center'>
-                <h3 className='font-thin uppercase text-lg'>have a project in mind?</h3>
-                <h1 className='font-bold uppercase lg:text-7xl text-5xl text-center'>Let's work together</h1>
-                <a href="https://forms.gle/iKKj3LsQbgySDCdK6" target='_blank' className='border border-border p-4 rounded-full capitalize'>get in touch ↗️</a>
+        <footer>
+            <div className="relative py-24 bg-black text-white overflow-hidden">
+
+                <div className="container mx-auto px-4 relative">
+                    <div className="max-w-2xl mx-auto text-center">
+                        <h2 className="text-4xl font-bold mb-6">Ready to Transform Your Tender Process?</h2>
+                        <p className="text-xl mb-12 text-gray-400">
+                            Join the waitlist today and get exclusive early-bird pricing
+                        </p>
+                        <button className="group bg-white text-black px-8 py-4 rounded-full font-semibold inline-flex items-center gap-2 hover:bg-gray-100 transition-colors">
+                            Get Started Now
+                            <ArrowUpRight className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+                        </button>
+                    </div>
+                </div>
+
                 <div className="flex justify-center mt-8 space-x-6">
                     {
                         SOCIALS.map((item: TSocialsLinks, index: number) => (
