@@ -4,7 +4,7 @@ import Nav from "@/components/nav";
 import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
-    title: "MAAK CORP",
+    title: "PLANIFI - MAAK CORP",
     description: "Affordable SAAS for small abd medium businesses",
     icons: {
         icon: [
