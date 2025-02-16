@@ -1,21 +1,32 @@
+'use client';
 import { TNavItems } from '@/lib/type';
 import Link from 'next/link';
 import React from 'react'
 
 function Nav() {
 
+    const scrollToSection = (sectionId: string) => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     const routes: TNavItems[] = [
         {
             name: 'Features',
-            link: '/'
+            link: '/',
+            command: () => scrollToSection('features')
         },
         {
             name: 'Pricing',
-            link: '/about'
+            link: '/about',
+            command: () => scrollToSection('pricing')
         },
         {
             name: 'FAQ',
-            link: '/work'
+            link: '/work',
+            command: () => scrollToSection('faq')
         }
     ];
 
@@ -27,7 +38,13 @@ function Nav() {
             </Link>
             <div className='flex gap-8'>
                 {routes.map((route, index) => (
-                    <Link href={route.link} key={index} className='font-light text-white capitalize'>{route.name}</Link>
+                    <button
+                        key={index}
+                        onClick={route.command}
+                        className='text-sm font-semibold uppercase text-stone-300 hover:text-white'
+                    >
+                        {route.name}
+                    </button>
                 ))}
             </div>
         </nav>

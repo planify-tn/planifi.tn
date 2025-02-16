@@ -23,7 +23,7 @@ function Features() {
     ]
 
     return (
-        <section>
+        <section id='features'>
             <div className="text-black bg-gray-50">
                 <div className="container mx-auto px-4">
                     <div className="grid md:grid-cols-2 gap-16 items-center">

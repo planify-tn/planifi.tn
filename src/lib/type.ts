@@ -3,6 +3,7 @@ import { ReactElement } from "react";
 export type TNavItems = {
     name: string;
     link: string;
+    command?: () => void;
 };
 
 export type TSocialsLinks = {
