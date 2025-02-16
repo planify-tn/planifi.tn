@@ -1,6 +1,34 @@
-import React from 'react';
+"use client"
+import React, { FormEvent } from 'react';
 
 const LeadForm = () => {
+
+    const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+
+        const formData = new FormData(e.currentTarget);
+
+        try {
+            const response = await fetch("/", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams(formData as never).toString(),
+            });
+
+            if (response.ok) {
+                alert("Thank you for your submission!");
+                e.currentTarget.reset();
+            } else {
+                alert("Something went wrong. Please try again.");
+            }
+        } catch (error) {
+            console.error("Error:", error);
+            alert("Something went wrong. Please try again.");
+        }
+    };
+
+
+
     return (
         <section className="min-h-screen bg-white py-12">
             <h1 className='mx-auto text-3xl py-12 text-center font-semibold capitalize'>Submit your request</h1>
@@ -10,6 +38,7 @@ const LeadForm = () => {
                 data-netlify="true"
                 netlify-honeypot="bot-field"
                 className="space-y-6 max-w-xl mx-auto"
+                onSubmit={handleSubmit}
             >
                 <input type="hidden" name="form-name" value="preorder-contact" />
                 <p className="hidden">
