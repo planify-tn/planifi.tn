@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className="antialiased text-[#E8E6E3]">
+            <body className="antialiased text-black">
                 <Nav />
                 {children}
                 <Footer />
