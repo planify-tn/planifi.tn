@@ -23,7 +23,55 @@ function FAQ() {
         {
             question: "Is there a limit to how many tenders I can manage?",
             answer: "No, all plans come with unlimited tender management. You can track and manage as many tenders as your business requires without any additional costs."
-        }
+        },
+        {
+            question: "What are the differences between Pro and Plus plans?",
+            answer: "The Pro plan includes essential features like HR module, file management, and basic tools. The Plus plan adds advanced features including our browser extension for automatic tender capturing, priority support, and advanced analytics."
+        },
+        {
+            question: "Can I switch between plans?",
+            answer: "Yes, you can upgrade or downgrade your plan at any time. When upgrading, you'll get immediate access to new features. When downgrading, you'll retain access to your current features until the end of your billing period."
+        },
+        {
+            question: "Do you offer a free trial?",
+            answer: "Yes, we offer a 14-day free trial on both Pro and Plus plans. No credit card is required to start your trial."
+        },
+        {
+            question: "Are there any long-term contracts?",
+            answer: "No, all our plans are billed month-to-month with no long-term commitment required. However, we do offer discounts for annual subscriptions."
+        },
+
+        // Hosting FAQs
+        {
+            question: "Where is my data stored?",
+            answer: "Your data is securely stored in our cloud infrastructure with servers located in Europe / Tunisia, ensuring high availability and compliance with data protection regulations."
+        },
+        {
+            question: "Can I host PLANIFI on my own servers?",
+            answer: "Yes, we offer self-hosting options for enterprise customers. Contact our sales team for more information about on-premise deployment."
+        },
+        {
+            question: "How often is my data backed up?",
+            answer: "We perform automated backups daily, with point-in-time recovery available for the last 30 days."
+        },
+        {
+            question: "What is your uptime guarantee?",
+            answer: "We maintain a 99.9% uptime SLA for our cloud-hosted solution, with real-time status monitoring and alerts."
+        },
+
+        // Payment FAQs
+        {
+            question: "What payment methods do you accept?",
+            answer: "We accept major credit cards (Visa, Mastercard), bank transfers, and mobile payment solutions available in Tunisia. Enterprise customers can arrange for invoice-based payments."
+        },
+        {
+            question: "Is my payment information secure?",
+            answer: "Yes, all payment processing is handled through secure, certified payment processors. We don't store any sensitive payment information on our servers."
+        },
+        {
+            question: "Can I get a refund?",
+            answer: "We offer a 30-day money-back guarantee if you're not satisfied with our service. Contact our support team to process your refund."
+        },
     ];
 
 
