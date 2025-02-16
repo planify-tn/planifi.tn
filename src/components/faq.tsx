@@ -72,6 +72,60 @@ function FAQ() {
             question: "Can I get a refund?",
             answer: "We offer a 30-day money-back guarantee if you're not satisfied with our service. Contact our support team to process your refund."
         },
+        {
+            question: "Can I export my data if I decide to leave?",
+            answer: "Yes, you can export all your data in standard formats (CSV, Excel) at any time. We believe in data portability and making sure you're always in control of your information."
+        },
+
+        // Team & Access Management
+        {
+            question: "Is there a limit to how many team members I can add?",
+            answer: "Pro plan supports up to 10 team members, while Plus plan allows unlimited team members. Each plan includes granular permission controls to manage access levels."
+        },
+        {
+            question: "Can I control what different team members can access?",
+            answer: "Yes, PLANIFI offers role-based access control. Administrators can set specific permissions for each team member, controlling their access to sensitive documents and features."
+        },
+
+        // Features & Usage
+        {
+            question: "What file formats does the platform support?",
+            answer: "PLANIFI supports all common file formats including PDF, Word, Excel, PowerPoint, and image files. Our smart file manager helps organize and version control all your documents."
+        },
+        {
+            question: "Do you offer training or onboarding support?",
+            answer: "Yes, all plans include access to our knowledge base and video tutorials. Plus plan customers receive personalized onboarding sessions and priority support."
+        },
+
+        // Integration & Compatibility
+        {
+            question: "Does PLANIFI work with other business tools?",
+            answer: "Yes, PLANIFI integrates with common business tools. Our Plus plan includes API access for custom integrations with your existing systems."
+        },
+        {
+            question: "Which browsers are supported?",
+            answer: "PLANIFI works on all modern browsers including Chrome, Firefox, Safari, and Edge. Our browser extension is currently available for Chrome and Firefox."
+        },
+
+        // Language & Support
+        {
+            question: "Is the platform available in multiple languages?",
+            answer: "Currently, PLANIFI is available in English and French, with Arabic support coming soon. We're continuously adding support for more languages."
+        },
+        {
+            question: "What kind of support is available for technical issues?",
+            answer: "Pro plan includes email support with 24-hour response time. Plus plan users get priority support with 4-hour response time and direct phone support during business hours."
+        },
+
+        // Updates & Customization
+        {
+            question: "How often do you update the platform?",
+            answer: "We release updates monthly, including new features, improvements, and security patches. All updates are automatically available to all users."
+        },
+        {
+            question: "Can I request custom features for my business?",
+            answer: "Plus plan customers can request custom features through our feature request system. Enterprise customers get access to custom development options."
+        }
     ];
 
 
