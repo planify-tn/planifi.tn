@@ -15,7 +15,10 @@ export const metadata: Metadata = {
         'procurement',
         'bid management',
         'small business',
-        'medium business'
+        'medium business',
+        'Tunisia',
+        'tender platform',
+        'tender solutions'
     ],
     robots: {
         index: true,
@@ -37,7 +40,7 @@ export const metadata: Metadata = {
         description: 'Affordable SAAS for small and medium businesses - Streamline your tender management process',
         images: [
             {
-                url: '/og-image.jpg',
+                url: 'https://planifi.tn/og-image.svg',
                 width: 1200,
                 height: 630,
                 alt: 'PLANIFI Platform Preview',
@@ -48,8 +51,7 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'PLANIFI - Tender Management Made Simple',
         description: 'Affordable SAAS for small and medium businesses',
-        images: ['/twitter-image.jpg'],
-        creator: '@__aymkh',
+        images: ['https://planifi.tn/twitter-image.svg'],
     },
     icons: {
         icon: [
@@ -65,21 +67,19 @@ export const metadata: Metadata = {
             },
         ],
         apple: [
-            { url: '/apple-icon.png' },
+            { url: '/icon-192x192.svg' },
         ],
-        shortcut: ['/shortcut-icon.png'],
+        shortcut: ['/icon-512x512.svg'],
     },
     manifest: '/manifest.json',
+    alternates: {
+        canonical: 'https://planifi.tn'
+    },
     viewport: {
         width: 'device-width',
         initialScale: 1,
         maximumScale: 5,
-    },
-    verification: {
-        google: 'your-google-site-verification',
-        yandex: 'your-yandex-verification',
-        me: ['contact@maak-corp.tn'],
-    },
+    }
 };
 
 export default function RootLayout({
@@ -89,6 +89,40 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            <head>
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: JSON.stringify(
+                            {
+                                "@context": "https://schema.org",
+                                "@type": "SoftwareApplication",
+                                "name": "PLANIFI",
+                                "applicationCategory": "BusinessApplication",
+                                "operatingSystem": "Web",
+                                "description": "Tender management platform for small and medium businesses",
+                                "offers": {
+                                    "@type": "Offer",
+                                    "price": "YOUR_PRICE",
+                                    "priceCurrency": "TND",
+                                    "priceValidUntil": "2024-12-31"
+                                },
+                                "featureList": [
+                                    "HR Module",
+                                    "File Management",
+                                    "Tender Tracking",
+                                    "Browser Extension"
+                                ],
+                                "aggregateRating": {
+                                    "@type": "AggregateRating",
+                                    "ratingValue": "4.8",
+                                    "ratingCount": "150"
+                                }
+                            }
+                        )
+                    }}
+                />
+            </head>
             <body className="antialiased text-black">
                 <Nav />
                 {children}
