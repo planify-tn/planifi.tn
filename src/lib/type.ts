@@ -10,3 +10,8 @@ export type TSocialsLinks = {
     href: string;
     icon: ReactElement;
 }
+
+export type IFaq = {
+    question: string;
+    answer: string;
+};

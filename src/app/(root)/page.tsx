@@ -2,6 +2,7 @@ import React from 'react'
 import HeroSection from '@/components/heroSection';
 import Features from '@/components/features';
 import Pricing from '@/components/pricing';
+import FAQ from '@/components/faq';
 
 function page() {
     return (
@@ -11,6 +12,8 @@ function page() {
             <Features />
 
             <Pricing />
+
+            <FAQ />
         </div>
     )
 }
