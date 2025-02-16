@@ -54,10 +54,10 @@ function Footer() {
                         <p className="text-xl mb-12 text-gray-400">
                             Join the waitlist today and get exclusive early-bird pricing
                         </p>
-                        <button className="group bg-white text-black px-8 py-4 rounded-full font-semibold inline-flex items-center gap-2 hover:bg-gray-100 transition-colors">
+                        <a href="/request" className="group bg-white text-black px-8 py-4 rounded-full font-semibold inline-flex items-center gap-2 hover:bg-gray-100 transition-colors">
                             Get Started Now
                             <ArrowUpRight className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-                        </button>
+                        </a>
                     </div>
                 </div>
 

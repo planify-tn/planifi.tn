@@ -22,10 +22,10 @@ function HeroSection() {
                         <p className="text-xl text-gray-600 mb-12 max-w-2xl">
                             Streamline your tender process with our all-in-one platform. From HR organization to automated bid capturing.
                         </p>
-                        <button className="group bg-black text-white px-8 py-4 rounded-full font-semibold flex items-center gap-2 hover:bg-gray-900 transition-all">
+                        <a href='/request' className="group bg-black text-white w-fit px-8 py-4 rounded-full font-semibold flex items-center gap-2 hover:bg-gray-900 transition-all">
                             Pre-order Now
                             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                        </button>
+                        </a>
                     </div>
                 </div>
 

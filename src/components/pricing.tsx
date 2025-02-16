@@ -1,3 +1,4 @@
+
 import { Check, Chrome } from 'lucide-react'
 import React from 'react'
 
@@ -25,9 +26,9 @@ function Pricing() {
                             <span>Basic Tools</span>
                         </li>
                     </ul>
-                    <button className="w-full py-4 border-2 border-black text-black rounded-full font-semibold group-hover:bg-black group-hover:text-white transition-colors">
+                    <a href="/request" className="w-full py-4 px-3 border-2 border-black text-black rounded-full font-semibold group-hover:bg-black group-hover:text-white transition-colors">
                         Pre-order Pro
-                    </button>
+                    </a>
                 </div>
 
                 {/* Plus Plan */}
@@ -51,9 +52,9 @@ function Pricing() {
                             <span>Tender Grabber Extension</span>
                         </li>
                     </ul>
-                    <button className="w-full py-4 bg-white text-black rounded-full font-semibold hover:bg-gray-100 transition-colors">
+                    <a href="/request" className="w-full py-4 px-3 bg-white text-black rounded-full font-semibold hover:bg-gray-100 transition-colors">
                         Pre-order Plus
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>
