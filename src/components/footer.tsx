@@ -1,5 +1,6 @@
 import { TSocialsLinks } from '@/lib/type';
 import { ArrowUpRight } from 'lucide-react';
+import Link from 'next/link';
 import React from 'react'
 
 function Footer() {
@@ -70,8 +71,8 @@ function Footer() {
                     }
                 </div>
             </div>
-            <p className="py-8 text-base leading-6 text-center">
-                © {new Date().getFullYear()} <strong>MAAK CORP</strong>, All rights reserved.
+            <p className="py-8 text-base leading-6 text-center text-white">
+                © {new Date().getFullYear()} <Link href={'https://maak-corp.tn'}><strong>MAAK CORP</strong></Link>, All rights reserved.
             </p>
         </footer>
     )

@@ -28,7 +28,7 @@ function FAQ() {
 
 
     return (
-        <section className="container mx-auto px-4 relative" id="faq">
+        <section className="container mx-auto px-4 relative py-24" id="faq">
             <h2 className="text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
 
             <div className="max-w-3xl mx-auto space-y-4">
@@ -55,7 +55,6 @@ function FAQ() {
                     </div>
                 ))}
             </div>
-            )
         </section>
     )
 }
