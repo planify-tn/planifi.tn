@@ -1,0 +1,28 @@
+{
+    "name": "PLANIFI - Tender Management Platform",
+    "short_name": "PLANIFI",
+    "description": "Affordable SAAS for tender management - streamline your bidding process",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#000000",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/icon-192x192.svg",
+            "sizes": "192x192",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-384x384.svg",
+            "sizes": "384x384",
+            "type": "image/svg+xml"
+        },
+        {
+            "src": "/icon-512x512.svg",
+            "sizes": "512x512",
+            "type": "image/svg+xml"
+        }
+    ]
+}

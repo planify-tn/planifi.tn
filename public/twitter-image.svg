@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="1200" height="600" fill="#FFFFFF" />
+
+    <!-- Decorative Elements -->
+    <rect x="-50" y="-50" width="300" height="300" fill="#000000" opacity="0.05"
+        transform="rotate(15)" />
+    <rect x="950" y="350" width="300" height="300" fill="#000000" opacity="0.05"
+        transform="rotate(-15)" />
+
+    <!-- Main Content -->
+    <g transform="translate(80, 80)">
+        <!-- Logo -->
+        <text x="0" y="0" font-family="Arial" font-weight="bold" font-size="72" fill="#000000">
+            PLANIFI</text>
+
+        <!-- Main Message -->
+        <text x="0" y="100" font-family="Arial" font-size="40" fill="#000000">Transform Your Tender
+            Process</text>
+
+        <!-- Subtitle -->
+        <text x="0" y="160" font-family="Arial" font-size="32" fill="#666666">Smart tools for
+            ambitious businesses</text>
+    </g>
+
+    <!-- Visual Element -->
+    <g transform="translate(650, 150)">
+        <!-- Interface Mockup -->
+        <rect x="0" y="0" width="450" height="300" fill="#F8F8F8" rx="12" />
+        <rect x="25" y="25" width="400" height="50" fill="#000000" rx="6" />
+        <rect x="25" y="100" width="200" height="25" fill="#E0E0E0" rx="3" />
+        <rect x="25" y="150" width="400" height="2" fill="#E0E0E0" />
+        <rect x="25" y="175" width="400" height="25" fill="#E0E0E0" rx="3" />
+        <rect x="25" y="225" width="300" height="25" fill="#E0E0E0" rx="3" />
+    </g>
+</svg>

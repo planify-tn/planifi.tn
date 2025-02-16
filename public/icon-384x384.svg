@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="384" height="384" viewBox="0 0 384 384" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background for maskable support -->
+    <rect width="384" height="384" fill="#000000" />
+    <!-- Centered logo with padding -->
+    <g transform="translate(66, 97)">
+        <rect width="130" height="137.8174"
+            transform="matrix(0.882353 0.470588 -0.876667 0.481098 128.82 61.111)" fill="#FFFFFF" />
+        <g>
+            <rect width="130" height="137.8174"
+                transform="matrix(0.882353 0.470588 -0.876667 0.481098 128.82 32)" fill="#FFFFFF" />
+        </g>
+        <g>
+            <rect width="130" height="137.8174"
+                transform="matrix(0.882353 0.470588 -0.876667 0.481098 128.82 0)" fill="#FFFFFF" />
+        </g>
+    </g>
+</svg>
