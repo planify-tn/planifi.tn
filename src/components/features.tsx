@@ -1,4 +1,5 @@
-import { Building2, FileText, Wrench, Calendar, Globe, ShieldCheck } from 'lucide-react'
+import { Building2, FileText, Wrench, Calendar, Globe, ShieldCheck, ArrowRight } from 'lucide-react'
+import Link from 'next/link'
 import React from 'react'
 
 function Features() {
@@ -11,7 +12,7 @@ function Features() {
         },
         {
             title: "Project Management",
-            description: "Organize your tender responses with customizable views: Kanban, Gantt, and List views.",
+            description: "Customize your projects with unique views: Kanban, Gantt, and List views.",
             icon: <Calendar className="w-6 h-6 text-white" />,
             benefit: "Never miss a tender deadline with visual progress tracking."
         },
@@ -43,11 +44,11 @@ function Features() {
 
     return (
         <section id='features' className='py-24 bg-gray-50'>
-            <div className='container mx-auto px-4'>
-                <div className='text-center mb-16'>
+            <div className='container mx-auto px-4 lg:px-0 space-y-12'>
+                <div className='text-center'>
                     <h2 className="text-4xl font-bold mb-4">Comprehensive Tender Management</h2>
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                        Planify combines all the tools you need to win more tenders in one powerful, easy-to-use platform.
+                        PLANIFI combines all the tools you need to win more tenders in one powerful, easy-to-use platform.
                     </p>
                 </div>
 
@@ -67,11 +68,12 @@ function Features() {
                         </div>
                     ))}
                 </div>
-                
-                <div className="mt-16 text-center">
-                    <a href="#how-it-works" className="inline-block bg-black text-white px-8 py-4 rounded-full font-semibold hover:bg-gray-900 transition-colors">
-                        See How It Works
-                    </a>
+
+                <div className='flex justify-center'>
+                    <Link href='/request' className="group bg-black text-white px-8 py-4 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-gray-900 transition-all w-full lg:w-fit">
+                        Join Waitlist
+                        <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                    </Link>
                 </div>
             </div>
         </section>
