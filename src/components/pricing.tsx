@@ -85,15 +85,15 @@ function Pricing() {
 
                 <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                     {plans.map((plan, index) => (
-                        <div 
-                            key={index} 
-                            className={`group relative ${plan.highlighted 
-                                ? 'bg-black text-white' 
+                        <div
+                            key={index}
+                            className={`group relative ${plan.highlighted
+                                ? 'bg-black text-white'
                                 : 'bg-white border-2 border-gray-200 hover:border-black'} 
                                 rounded-3xl transition-colors overflow-hidden`}
                         >
                             {plan.badge && (
-                                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-white text-black px-6 py-1 rounded-full text-sm font-bold">
+                                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-white text-black px-6 py-1 rounded-full text-sm font-bold top-0">
                                     {plan.badge}
                                 </div>
                             )}
@@ -108,7 +108,7 @@ function Pricing() {
                                         {plan.period}
                                     </span>
                                 </div>
-                                
+
                                 <div className="mb-8">
                                     <h4 className={`font-semibold mb-4 ${plan.highlighted ? 'text-gray-200' : 'text-gray-700'}`}>
                                         What's included:
@@ -121,7 +121,7 @@ function Pricing() {
                                             </li>
                                         ))}
                                     </ul>
-                                    
+
                                     {plan.notIncluded && (
                                         <>
                                             <h4 className={`font-semibold my-4 ${plan.highlighted ? 'text-gray-200' : 'text-gray-700'}`}>
@@ -140,14 +140,13 @@ function Pricing() {
                                         </>
                                     )}
                                 </div>
-                                
-                                <a 
-                                    href={plan.ctaLink} 
-                                    className={`w-full py-4 px-3 rounded-full font-semibold block text-center ${
-                                        plan.highlighted 
-                                            ? 'bg-white text-black hover:bg-gray-100' 
+
+                                <a
+                                    href={plan.ctaLink}
+                                    className={`w-full py-4 px-3 rounded-full font-semibold block text-center ${plan.highlighted
+                                            ? 'bg-white text-black hover:bg-gray-100'
                                             : 'border-2 border-black text-black group-hover:bg-black group-hover:text-white'
-                                    } transition-colors`}
+                                        } transition-colors`}
                                 >
                                     {plan.cta}
                                 </a>
