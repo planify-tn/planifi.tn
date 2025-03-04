@@ -1,0 +1,44 @@
+{
+    "name": "Planifi - Complete Tender Management Platform",
+    "short_name": "Planifi",
+    "description": "Streamline your tender process with Planifi - The all-in-one platform for discovering, tracking, and winning tenders in Libya and North Africa.",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "portrait",
+    "lang": "en",
+    "dir": "ltr",
+    "categories": [
+        "business",
+        "productivity",
+        "utilities"
+    ],
+    "screenshots": [
+        {
+            "src": "/screenshots/dashboard.png",
+            "sizes": "1280x720",
+            "type": "image/png"
+        },
+        {
+            "src": "/screenshots/tender-list.png",
+            "sizes": "1280x720",
+            "type": "image/png"
+        }
+    ],
+    "related_applications": []
+}

@@ -1,5 +1,13 @@
 User-agent: *
 Allow: /
 
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /account/
+Disallow: /login/
+Disallow: /logout/
+Disallow: /api/
+
 # Sitemaps
 Sitemap: https://planifi.tn/sitemap.xml
