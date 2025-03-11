@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "title": "PLANIFI - Plateforme de Gestion d'Appels d'Offres",
+    "description": "Solution SAAS abordable pour les petites et moyennes entreprises - Simplifiez votre processus de gestion d'appels d'offres avec notre plateforme intuitive"
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "faq": "FAQ",
+    "tryFree": "Essai Gratuit",
+    "tagline": "Plateforme de Gestion d'Appels d'Offres"
+  },
+  "hero": {
+    "badge": "Bientôt Disponible - Rejoignez la Liste d'Attente",
+    "title": "Gagnez Plus d'Appels d'Offres,",
+    "highlight": "Avec Moins d'Effort",
+    "description": "PLANIFI simplifie l'ensemble de votre processus d'appel d'offres, de la découverte à la soumission, grâce à notre plateforme tout-en-un conçue pour les entreprises sérieuses.",
+    "cta": "Rejoindre la Liste d'Attente"
+  },
+  "features": {
+    "title": "Gestion Complète des Appels d'Offres",
+    "subtitle": "PLANIFI combine tous les outils dont vous avez besoin pour gagner plus d'appels d'offres dans une plateforme puissante et facile à utiliser.",
+    "items": {
+      "userManagement": {
+        "title": "Gestion des Utilisateurs",
+        "description": "Authentification sécurisée avec contrôle d'accès basé sur les rôles pour une collaboration d'équipe fluide sur les appels d'offres.",
+        "benefit": "Gardez vos documents d'appel d'offres sensibles en sécurité tout en permettant la collaboration d'équipe."
+      },
+      "projectManagement": {
+        "title": "Gestion de Projets",
+        "description": "Personnalisez vos projets avec des vues uniques : Kanban, Gantt et vues en liste.",
+        "benefit": "Ne manquez jamais une date limite d'appel d'offres grâce au suivi visuel de progression."
+      },
+      "documentRepository": {
+        "title": "Dépôt de Documents",
+        "description": "Gestion intelligente des documents avec contrôle de version et bibliothèque de modèles.",
+        "benefit": "Trouvez instantanément les bons documents et maintenez un historique de version parfait."
+      },
+      "organizationManagement": {
+        "title": "Gestion de l'Organisation",
+        "description": "Gérez les CV de votre équipe, les compétences et la structure d'entreprise pour des réponses plus rapides aux appels d'offres.",
+        "benefit": "Réduisez le temps de réponse de 40% avec des informations d'entreprise prêtes à l'emploi."
+      },
+      "tenderManagement": {
+        "title": "Gestion des Appels d'Offres",
+        "description": "Découvrez, suivez et répondez aux opportunités d'appels d'offres, le tout en un seul endroit.",
+        "benefit": "Ne manquez jamais une opportunité d'appel d'offres pertinente grâce aux alertes intelligentes."
+      },
+      "builtinTools": {
+        "title": "Outils Intégrés",
+        "description": "Outils essentiels incluant un créateur de CV, un convertisseur de devises et des vérificateurs de conformité.",
+        "benefit": "Gagnez du temps avec des outils spécialisés conçus pour le succès des appels d'offres."
+      }
+    },
+    "cta": "Rejoindre la Liste d'Attente"
+  },
+  "pricing": {
+    "title": "Choisissez Votre Forfait",
+    "subtitle": "Options de tarification flexibles pour répondre aux besoins de toute organisation",
+    "billing": {
+      "monthly": "Mensuel",
+      "quarterly": "Trimestriel",
+      "savings": "Économisez jusqu'à 10%"
+    },
+    "plans": {
+      "pro": {
+        "name": "Forfait Pro",
+        "description": "Parfait pour les petites et moyennes entreprises",
+        "monthlyPrice": "199 €",
+        "quarterlyPrice": "179 €",
+        "monthlyPeriod": "par utilisateur/mois",
+        "quarterlyPeriod": "par utilisateur/mois, facturé trimestriellement",
+        "whatsIncluded": "Ce qui est inclus :",
+        "features": [
+          "Module RH (jusqu'à 20 employés)",
+          "Dépôt de Documents (5 Go de stockage)",
+          "Gestion de Projet (Basique)",
+          "Gestion d'Appels d'Offres (Limité)",
+          "Support Basique (Email)",
+          "Modèles Standards"
+        ],
+        "cta": "Précommander Pro"
+      },
+      "plus": {
+        "name": "Forfait Plus",
+        "description": "Pour les entreprises qui veulent se développer",
+        "monthlyPrice": "130 €",
+        "quarterlyPrice": "117 €",
+        "monthlyPeriod": "par utilisateur/mois",
+        "quarterlyPeriod": "par utilisateur/mois, facturé trimestriellement",
+        "badge": "RECOMMANDÉ",
+        "whatsIncluded": "Ce qui est inclus :",
+        "features": [
+          "Tout ce qui est dans Pro, plus :",
+          "Module RH (Employés illimités)",
+          "Dépôt de Documents (20 Go de stockage)",
+          "Gestion de Projet (Avancé)",
+          "Gestion d'Appels d'Offres (Toutes fonctionnalités)",
+          "Support Prioritaire (Téléphone & Email)",
+          "Extension Navigateur pour Capture d'Appels d'Offres",
+          "Tableau de Bord Analytique Avancé",
+          "Modèles Personnalisés"
+        ],
+        "cta": "Précommander Plus"
+      },
+      "enterprise": {
+        "name": "Entreprise",
+        "description": "Solution personnalisée pour les grandes organisations",
+        "monthlyPrice": "Sur mesure",
+        "quarterlyPrice": "Sur mesure",
+        "monthlyPeriod": "adapté à vos besoins",
+        "quarterlyPeriod": "adapté à vos besoins",
+        "whatsIncluded": "Ce qui est inclus :",
+        "features": [
+          "Tout ce qui est dans Plus, plus :",
+          "Option d'auto-hébergement disponible",
+          "Personnalisation de marque",
+          "Gestionnaire de compte dédié",
+          "Développement de fonctionnalités personnalisées",
+          "Intégration personnalisée",
+          "Support Premium 24/7",
+          "Intégrations personnalisées",
+          "Garanties SLA"
+        ],
+        "cta": "Contacter les Ventes"
+      }
+    },
+    "helpText": "Besoin d'aide pour choisir le bon forfait ?",
+    "contactSales": "Contactez notre équipe commerciale"
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "subtitle": "Trouvez des réponses aux questions courantes sur les fonctionnalités, les tarifs et les détails techniques de Planify",
+    "searchPlaceholder": "Rechercher des questions...",
+    "categories": {
+      "all": "Toutes les Questions",
+      "features": "Fonctionnalités & Utilisation",
+      "pricing": "Tarifs & Forfaits",
+      "technical": "Technique & Hébergement",
+      "team": "Équipe & Accès"
+    },
+    "noResults": "Aucune question correspondant à vos critères.",
+    "resetFilters": "Réinitialiser les filtres",
+    "stillHaveQuestions": {
+      "title": "Vous avez encore des questions ?",
+      "text": "Notre équipe est là pour vous aider à tirer le meilleur parti de Planify",
+      "cta": "Contacter le Support"
+    }
+  },
+  "footer": {
+    "cta": {
+      "title": "Prêt à Transformer Votre Processus d'Appel d'Offres ?",
+      "text": "Rejoignez la liste d'attente aujourd'hui et bénéficiez d'un tarif exclusif pour les premiers utilisateurs",
+      "button": "Commencer Maintenant"
+    },
+    "copyright": "Tous droits réservés."
+  },
+  "form": {
+    "title": "Soumettez votre demande",
+    "company": "Nom de l'Entreprise",
+    "fullName": "Nom Complet",
+    "email": "Email Professionnel",
+    "phone": "Numéro de Téléphone",
+    "plan": {
+      "label": "Forfait Intéressé",
+      "placeholder": "Sélectionnez un forfait",
+      "pro": "Forfait Pro",
+      "plus": "Forfait Plus",
+      "enterprise": "Entreprise"
+    },
+    "companySize": {
+      "label": "Taille de l'Entreprise",
+      "placeholder": "Sélectionnez la taille de l'entreprise",
+      "size1": "1-10 employés",
+      "size2": "11-50 employés",
+      "size3": "51-200 employés",
+      "size4": "201+ employés"
+    },
+    "message": {
+      "label": "Informations Supplémentaires (Optionnel)",
+      "placeholder": "Parlez-nous de vos besoins spécifiques ou de vos questions..."
+    },
+    "submit": "Soumettre la Demande de Précommande",
+    "privacyNote": "En soumettant ce formulaire, vous acceptez notre politique de confidentialité et nos conditions d'utilisation.",
+    "success": "Merci pour votre soumission !",
+    "error": "Une erreur s'est produite. Veuillez réessayer."
+  },
+  "languageSwitcher": "Langue"
+}
