@@ -4,6 +4,7 @@ export type Locale = "en" | "fr" | "ar";
 export const i18n = {
   defaultLocale: "en" as Locale,
   locales: ["en", "fr", "ar"] as Locale[],
+  localeDetection: true,
 };
 
 export const localeNames: Record<Locale, string> = {
@@ -27,22 +28,22 @@ export const localizedRoutes: Record<RouteKey, Record<Locale, string>> = {
     ar: "/ar",
   },
   pricing: {
-    en: "/pricing",
+    en: "/en/pricing",
     fr: "/fr/pricing",
     ar: "/ar/pricing",
   },
   faq: {
-    en: "/faq",
+    en: "/en/faq",
     fr: "/fr/faq",
     ar: "/ar/faq",
   },
   request: {
-    en: "/request",
+    en: "/en/request",
     fr: "/fr/request",
     ar: "/ar/request",
   },
   contact: {
-    en: "/contact",
+    en: "/en/contact",
     fr: "/fr/contact",
     ar: "/ar/contact",
   },
