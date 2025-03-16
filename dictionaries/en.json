@@ -55,77 +55,67 @@
     "cta": "Join Waitlist"
   },
   "pricing": {
-    "title": "Choose Your Plan",
-    "subtitle": "Flexible pricing options to meet the needs of any organization",
-    "billing": {
-      "monthly": "Monthly",
-      "quarterly": "Quarterly",
-      "savings": "Save up to 10%"
+    "title": "Pricing Plans",
+    "subtitle": "Choose the perfect plan for your business needs",
+    "monthly": "Monthly",
+    "quarterly": "Quarterly",
+    "savingsLabel": "Save 10% with quarterly billing",
+    "monthly_period": "per user/month",
+    "quarterly_period": "per user/month, billed quarterly",
+    "custom_price": "Custom",
+    "custom_period": "tailored to your needs",
+    "included": "What's included",
+    "helpText": "Need help choosing the right plan?",
+    "contactSales": "Contact our sales team",
+    "features": {
+      "unlimited_projects": "Unlimited projects",
+      "team_members_20": "20 team members",
+      "team_members_10": "10 team members",
+      "team_members_unlimited": "Unlimited team members",
+      "advanced_project_views": "Advanced project views",
+      "basic_project_views": "Basic project views",
+      "all_project_views": "All project views",
+      "document_repository": "Document repository",
+      "advanced_document_repository": "Advanced document repository",
+      "document_versioning": "Document versioning",
+      "basic_document_versioning": "Basic document versioning",
+      "advanced_document_versioning": "Advanced document versioning",
+      "tender_tracking": "Tender tracking",
+      "advanced_tender_tracking": "Advanced tender tracking",
+      "storage_5gb": "5GB storage per user",
+      "storage_2gb": "2GB storage per user",
+      "custom_storage": "Custom storage allocation",
+      "priority_support": "Priority support",
+      "standard_support": "Standard support",
+      "dedicated_support": "Dedicated support",
+      "custom_integrations": "Custom integrations",
+      "on_premises": "On-premises deployment option"
     },
     "plans": {
       "pro": {
-        "name": "Pro Plan",
-        "description": "Perfect for small to medium businesses",
-        "monthlyPeriod": "per user/month",
-        "quarterlyPeriod": "per user/month, billed quarterly",
-        "whatsIncluded": "What's included:",
-        "features": [
-          "HR Module (up to 20 employees)",
-          "Document Repository (5GB storage)",
-          "Project Management (Basic)",
-          "Tender Management (Limited)",
-          "Basic Support (Email)",
-          "Standard Templates"
-        ],
-        "cta": "Pre-order Pro"
+        "name": "Pro",
+        "description": "For professional teams managing multiple projects",
+        "cta": "Get started with Pro",
+        "badge": ""
       },
       "plus": {
-        "name": "Plus Plan",
-        "description": "For businesses serious about scaling",
-        "monthlyPeriod": "per user/month",
-        "quarterlyPeriod": "per user/month, billed quarterly",
-        "badge": "RECOMMENDED",
-        "whatsIncluded": "What's included:",
-        "features": [
-          "Everything in Pro, plus:",
-          "HR Module (Unlimited employees)",
-          "Document Repository (20GB storage)",
-          "Project Management (Advanced)",
-          "Tender Management (Full featured)",
-          "Priority Support (Phone & Email)",
-          "Tender Grabber Browser Extension",
-          "Advanced Analytics Dashboard",
-          "Custom Templates"
-        ],
-        "cta": "Pre-order Plus"
+        "name": "Plus",
+        "description": "For growing teams with expanding needs",
+        "cta": "Get started with Plus",
+        "badge": "Most popular"
       },
       "enterprise": {
         "name": "Enterprise",
-        "description": "Custom solution for large organizations",
-        "monthlyPeriod": "tailored to your needs",
-        "quarterlyPeriod": "tailored to your needs",
-        "whatsIncluded": "What's included:",
-        "features": [
-          "Everything in Plus, plus:",
-          "Self-hosted option available",
-          "White-labeling",
-          "Dedicated account manager",
-          "Custom feature development",
-          "Personalized onboarding",
-          "24/7 Premium support",
-          "Custom integrations",
-          "SLA guarantees"
-        ],
-        "cta": "Contact Sales"
+        "description": "For large organizations with custom requirements",
+        "cta": "Contact sales",
+        "badge": ""
       }
-    },
-    "helpText": "Need help choosing the right plan?",
-    "contactSales": "Contact our sales team"
+    }
   },
   "faq": {
     "title": "Frequently Asked Questions",
     "subtitle": "Find answers to common questions about Planify's features, pricing, and technical details",
-    "searchPlaceholder": "Search for questions...",
+    "searchPlaceholder": "Search questions...",
     "categories": {
       "all": "All Questions",
       "features": "Features & Usage",
@@ -133,7 +123,7 @@
       "technical": "Technical & Hosting",
       "team": "Team & Access"
     },
-    "noResults": "No questions found matching your criteria.",
+    "noResults": "No questions matching your criteria.",
     "resetFilters": "Reset filters",
     "stillHaveQuestions": {
       "title": "Still have questions?",
@@ -144,8 +134,9 @@
   "footer": {
     "cta": {
       "title": "Ready to Transform Your Tender Process?",
-      "text": "Join the waitlist today and get exclusive early-bird pricing",
-      "button": "Get Started Now"
+      "text": "Join the waitlist today and benefit from exclusive early-bird pricing",
+      "button": "Get Started Now",
+      "subtitle": "Join the waitlist today and benefit from exclusive early-bird pricing"
     },
     "copyright": "All rights reserved."
   },
@@ -153,7 +144,7 @@
     "title": "Submit your request",
     "company": "Company Name",
     "fullName": "Full Name",
-    "email": "Work Email",
+    "email": "Business Email",
     "phone": "Phone Number",
     "plan": {
       "label": "Interested Plan",
@@ -175,9 +166,8 @@
       "placeholder": "Tell us about your specific needs or questions..."
     },
     "submit": "Submit Pre-order Request",
-    "privacyNote": "By submitting this form, you agree to our privacy policy and terms of service.",
+    "privacyNote": "By submitting this form, you agree to our privacy policy and terms of use.",
     "success": "Thank you for your submission!",
-    "error": "Something went wrong. Please try again."
-  },
-  "languageSwitcher": "Language"
+    "error": "An error occurred. Please try again."
+  }
 }

@@ -54,79 +54,64 @@
     },
     "cta": "Rejoindre la Liste d'Attente"
   },
+
   "pricing": {
-    "title": "Choisissez Votre Forfait",
-    "subtitle": "Options de tarification flexibles pour répondre aux besoins de toute organisation",
-    "billing": {
-      "monthly": "Mensuel",
-      "quarterly": "Trimestriel",
-      "savings": "Économisez jusqu'à 10%"
+    "title": "Plans Tarifaires",
+    "subtitle": "Choisissez le plan parfait pour les besoins de votre entreprise",
+    "monthly": "Mensuel",
+    "quarterly": "Trimestriel",
+    "savingsLabel": "Économisez 10% avec facturation trimestrielle",
+    "monthly_period": "par utilisateur/mois",
+    "quarterly_period": "par utilisateur/mois, facturé trimestriellement",
+    "custom_price": "Personnalisé",
+    "custom_period": "adapté à vos besoins",
+    "included": "Ce qui est inclus",
+    "helpText": "Besoin d'aide pour choisir le bon plan?",
+    "contactSales": "Contactez notre équipe commerciale",
+    "features": {
+      "unlimited_projects": "Projets illimités",
+      "team_members_20": "20 membres d'équipe",
+      "team_members_10": "10 membres d'équipe",
+      "team_members_unlimited": "Membres d'équipe illimités",
+      "advanced_project_views": "Vues de projet avancées",
+      "basic_project_views": "Vues de projet basiques",
+      "all_project_views": "Toutes les vues de projet",
+      "document_repository": "Dépôt de documents",
+      "advanced_document_repository": "Dépôt de documents avancé",
+      "document_versioning": "Gestion de versions de documents",
+      "basic_document_versioning": "Gestion basique des versions de documents",
+      "advanced_document_versioning": "Gestion avancée des versions de documents",
+      "tender_tracking": "Suivi des appels d'offres",
+      "advanced_tender_tracking": "Suivi avancé des appels d'offres",
+      "storage_5gb": "5 Go de stockage par utilisateur",
+      "storage_2gb": "2 Go de stockage par utilisateur",
+      "custom_storage": "Allocation de stockage personnalisée",
+      "priority_support": "Support prioritaire",
+      "standard_support": "Support standard",
+      "dedicated_support": "Support dédié",
+      "custom_integrations": "Intégrations personnalisées",
+      "on_premises": "Option de déploiement sur site"
     },
     "plans": {
       "pro": {
-        "name": "Forfait Pro",
-        "description": "Parfait pour les petites et moyennes entreprises",
-        "monthlyPrice": "199 €",
-        "quarterlyPrice": "179 €",
-        "monthlyPeriod": "par utilisateur/mois",
-        "quarterlyPeriod": "par utilisateur/mois, facturé trimestriellement",
-        "whatsIncluded": "Ce qui est inclus :",
-        "features": [
-          "Module RH (jusqu'à 20 employés)",
-          "Dépôt de Documents (5 Go de stockage)",
-          "Gestion de Projet (Basique)",
-          "Gestion d'Appels d'Offres (Limité)",
-          "Support Basique (Email)",
-          "Modèles Standards"
-        ],
-        "cta": "Précommander Pro"
+        "name": "Pro",
+        "description": "Pour les équipes professionnelles gérant plusieurs projets",
+        "cta": "Commencer avec Pro",
+        "badge": ""
       },
       "plus": {
-        "name": "Forfait Plus",
-        "description": "Pour les entreprises qui veulent se développer",
-        "monthlyPrice": "130 €",
-        "quarterlyPrice": "117 €",
-        "monthlyPeriod": "par utilisateur/mois",
-        "quarterlyPeriod": "par utilisateur/mois, facturé trimestriellement",
-        "badge": "RECOMMANDÉ",
-        "whatsIncluded": "Ce qui est inclus :",
-        "features": [
-          "Tout ce qui est dans Pro, plus :",
-          "Module RH (Employés illimités)",
-          "Dépôt de Documents (20 Go de stockage)",
-          "Gestion de Projet (Avancé)",
-          "Gestion d'Appels d'Offres (Toutes fonctionnalités)",
-          "Support Prioritaire (Téléphone & Email)",
-          "Extension Navigateur pour Capture d'Appels d'Offres",
-          "Tableau de Bord Analytique Avancé",
-          "Modèles Personnalisés"
-        ],
-        "cta": "Précommander Plus"
+        "name": "Plus",
+        "description": "Pour les équipes en croissance avec des besoins en expansion",
+        "cta": "Commencer avec Plus",
+        "badge": "Le plus populaire"
       },
       "enterprise": {
         "name": "Entreprise",
-        "description": "Solution personnalisée pour les grandes organisations",
-        "monthlyPrice": "Sur mesure",
-        "quarterlyPrice": "Sur mesure",
-        "monthlyPeriod": "adapté à vos besoins",
-        "quarterlyPeriod": "adapté à vos besoins",
-        "whatsIncluded": "Ce qui est inclus :",
-        "features": [
-          "Tout ce qui est dans Plus, plus :",
-          "Option d'auto-hébergement disponible",
-          "Personnalisation de marque",
-          "Gestionnaire de compte dédié",
-          "Développement de fonctionnalités personnalisées",
-          "Intégration personnalisée",
-          "Support Premium 24/7",
-          "Intégrations personnalisées",
-          "Garanties SLA"
-        ],
-        "cta": "Contacter les Ventes"
+        "description": "Pour les grandes organisations avec des exigences personnalisées",
+        "cta": "Contacter les ventes",
+        "badge": ""
       }
-    },
-    "helpText": "Besoin d'aide pour choisir le bon forfait ?",
-    "contactSales": "Contactez notre équipe commerciale"
+    }
   },
   "faq": {
     "title": "Questions Fréquemment Posées",
@@ -151,7 +136,8 @@
     "cta": {
       "title": "Prêt à Transformer Votre Processus d'Appel d'Offres ?",
       "text": "Rejoignez la liste d'attente aujourd'hui et bénéficiez d'un tarif exclusif pour les premiers utilisateurs",
-      "button": "Commencer Maintenant"
+      "button": "Commencer Maintenant",
+      "subtitle": "Rejoignez la liste d'attente aujourd'hui et bénéficiez d'un tarif exclusif pour les premiers utilisateurs"
     },
     "copyright": "Tous droits réservés."
   },

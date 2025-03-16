@@ -1,0 +1,99 @@
+{
+  "faqs": [
+    {
+      "question": "Comment fonctionne l'extension de capture d'appels d'offres ?",
+      "answer": "Notre extension de navigateur détecte et extrait automatiquement les informations d'appels d'offres des sites web pris en charge. En un seul clic, elle importe toutes les données pertinentes directement dans votre compte plateforme, en maintenant un formatage et une organisation appropriés.",
+      "category": "features"
+    },
+    {
+      "question": "Quels formats de fichiers la plateforme prend-elle en charge ?",
+      "answer": "PLANIFI prend en charge tous les formats de fichiers courants, y compris PDF, Word, Excel, PowerPoint, fichiers image et dessins CAO. Notre gestionnaire de fichiers intelligent aide à organiser et à contrôler les versions de tous vos documents avec des capacités de recherche avancées.",
+      "category": "features"
+    },
+    {
+      "question": "Y a-t-il une limite au nombre d'appels d'offres que je peux gérer ?",
+      "answer": "Non, tous nos plans incluent une gestion illimitée des appels d'offres. Vous pouvez suivre et gérer autant d'appels d'offres que votre entreprise le nécessite sans coûts supplémentaires.",
+      "category": "features"
+    },
+    {
+      "question": "Puis-je personnaliser le module RH pour la structure de mon entreprise ?",
+      "answer": "Oui, le module RH est entièrement personnalisable pour correspondre à la hiérarchie, aux départements et aux rôles de votre organisation. Vous pouvez facilement ajouter des champs personnalisés, créer des flux de travail spécifiques et ajuster les permissions selon vos besoins.",
+      "category": "features"
+    },
+    {
+      "question": "Quelles sont les différences entre les plans Pro et Plus ?",
+      "answer": "Le plan Pro comprend des fonctionnalités essentielles comme le module RH (jusqu'à 50 employés), 10 Go de stockage de documents, la gestion de projet de base et la prise en charge de jusqu'à 10 membres d'équipe. Le plan Plus ajoute un nombre illimité d'employés, 50 Go de stockage, une gestion de projet avancée, l'extension de navigateur pour la capture automatique d'appels d'offres, un support prioritaire, des analyses avancées et un accès API pour les intégrations.",
+      "category": "pricing"
+    },
+    {
+      "question": "Proposez-vous un essai gratuit ?",
+      "answer": "Oui, nous offrons un essai gratuit de 14 jours sur les plans Pro et Plus. Aucune carte de crédit n'est requise pour commencer votre essai, et vous aurez accès à toutes les fonctionnalités du plan sélectionné.",
+      "category": "pricing"
+    },
+    {
+      "question": "Y a-t-il des contrats à long terme ?",
+      "answer": "Non, tous nos plans sont facturés mois par mois sans engagement à long terme. Cependant, nous offrons des réductions allant jusqu'à 20% pour les abonnements annuels, ce qui peut générer des économies significatives.",
+      "category": "pricing"
+    },
+    {
+      "question": "Quels modes de paiement acceptez-vous ?",
+      "answer": "Nous acceptons les principales cartes de crédit (Visa, Mastercard), les virements bancaires et les solutions de paiement mobile disponibles en Tunisie. Les clients entreprises peuvent organiser des paiements par facture avec des cycles de facturation personnalisés.",
+      "category": "pricing"
+    },
+    {
+      "question": "Puis-je obtenir un remboursement ?",
+      "answer": "Nous offrons une garantie de remboursement de 30 jours si vous n'êtes pas satisfait de notre service. Contactez notre équipe de support pour traiter votre remboursement, sans poser de questions.",
+      "category": "pricing"
+    },
+    {
+      "question": "Où mes données sont-elles stockées ?",
+      "answer": "Vos données sont stockées en toute sécurité dans notre infrastructure cloud avec des serveurs situés en Europe / Tunisie, assurant une haute disponibilité et la conformité aux réglementations de protection des données. Toutes les données sont cryptées tant en transit qu'au repos.",
+      "category": "technical"
+    },
+    {
+      "question": "Puis-je héberger PLANIFI sur mes propres serveurs ?",
+      "answer": "Oui, nous proposons des options d'auto-hébergement pour les clients entreprises. Notre solution auto-hébergée peut être déployée sur site ou dans votre environnement cloud privé, vous donnant un contrôle complet sur vos données et votre configuration.",
+      "category": "technical"
+    },
+    {
+      "question": "À quelle fréquence mes données sont-elles sauvegardées ?",
+      "answer": "Nous effectuons des sauvegardes automatisées quotidiennes, avec une récupération à un moment précis disponible pour les 30 derniers jours. Les clients entreprises peuvent configurer des calendriers de sauvegarde personnalisés et des périodes de rétention plus longues pour répondre à des exigences spécifiques.",
+      "category": "technical"
+    },
+    {
+      "question": "Quelle est votre garantie de temps de fonctionnement ?",
+      "answer": "Nous maintenons un SLA de disponibilité de 99,9% pour notre solution hébergée dans le cloud, avec une surveillance d'état en temps réel et des alertes. Notre infrastructure est conçue avec une redondance à tous les niveaux pour assurer une disponibilité continue.",
+      "category": "technical"
+    },
+    {
+      "question": "Quels navigateurs sont pris en charge ?",
+      "answer": "PLANIFI fonctionne sur tous les navigateurs modernes, y compris Chrome, Firefox, Safari et Edge. Notre extension de navigateur est actuellement disponible pour Chrome et Firefox, avec un support pour d'autres navigateurs à venir prochainement.",
+      "category": "technical"
+    },
+    {
+      "question": "PLANIFI fonctionne-t-il avec d'autres outils professionnels ?",
+      "answer": "Oui, PLANIFI s'intègre avec des outils professionnels courants, y compris Office 365, Google Workspace, les systèmes CRM populaires et les outils de gestion de projet. Les utilisateurs du plan Plus ont accès à l'API pour des intégrations personnalisées avec vos systèmes existants.",
+      "category": "technical"
+    },
+    {
+      "question": "Y a-t-il une limite au nombre de membres d'équipe que je peux ajouter ?",
+      "answer": "Le plan Pro prend en charge jusqu'à 10 membres d'équipe, tandis que le plan Plus permet un nombre illimité de membres. Chaque plan comprend des contrôles de permission granulaires pour gérer les niveaux d'accès pour différents membres de l'équipe.",
+      "category": "team"
+    },
+    {
+      "question": "Puis-je contrôler ce à quoi les différents membres de l'équipe ont accès ?",
+      "answer": "Oui, PLANIFI offre un contrôle d'accès complet basé sur les rôles. Les administrateurs peuvent définir des permissions spécifiques pour chaque membre de l'équipe, contrôlant leur accès aux documents sensibles, aux projets et aux fonctionnalités en fonction de leur rôle et de leurs responsabilités.",
+      "category": "team"
+    },
+    {
+      "question": "Comment ajouter des membres à l'équipe sur la plateforme ?",
+      "answer": "L'ajout de membres d'équipe est simple. En tant qu'administrateur, vous pouvez inviter des membres d'équipe par email depuis la section Gestion d'Équipe. Ils recevront une invitation pour créer un compte et seront automatiquement ajoutés à votre organisation avec les permissions que vous avez assignées.",
+      "category": "team"
+    },
+    {
+      "question": "Puis-je transférer la propriété des projets entre les membres de l'équipe ?",
+      "answer": "Oui, la propriété et les responsabilités des projets peuvent être facilement transférées entre les membres de l'équipe. Cela est particulièrement utile lors des changements de personnel ou lors de la réorganisation de la structure de votre équipe pour des réponses spécifiques aux appels d'offres.",
+      "category": "team"
+    }
+  ]
+}

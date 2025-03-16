@@ -40,8 +40,6 @@ const defaultDictionary: Dictionary = {
 };
 
 export async function getDictionary(locale: Locale): Promise<Dictionary> {
-  console.log("locale", locale);
-
   try {
     // Make sure the locale is valid
     if (!dictionaries[locale]) {
