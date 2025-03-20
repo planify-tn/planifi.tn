@@ -1,7 +1,9 @@
 "use client"
 import React, { FormEvent } from 'react';
+import { useLocale } from '../../../../context/localContext';
 
 const LeadForm = () => {
+    const { t, } = useLocale();
 
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
@@ -16,22 +18,20 @@ const LeadForm = () => {
             });
 
             if (response.ok) {
-                alert("Thank you for your submission!");
+                alert(t('form.success'));
                 e.currentTarget.reset();
             } else {
-                alert("Something went wrong. Please try again.");
+                alert(t('form.error'));
             }
         } catch (error) {
             console.error("Error:", error);
-            alert("Something went wrong. Please try again.");
+            alert(t('form.error'));
         }
     };
 
-
-
     return (
-        <section className="min-h-screen bg-white py-12">
-            <h1 className='mx-auto text-3xl py-12 text-center font-semibold capitalize'>Submit your request</h1>
+        <section className="min-h-screen bg-white py-12" >
+            <h1 className='mx-auto text-3xl py-12 text-center font-semibold capitalize'>{t('form.title')}</h1>
             <form
                 name="preorder-contact"
                 method="POST"
@@ -50,7 +50,7 @@ const LeadForm = () => {
                 {/* Company Name */}
                 <div>
                     <label htmlFor="company" className="block text-sm font-medium mb-2">
-                        Company Name
+                        {t('form.company')}
                     </label>
                     <input
                         type="text"
@@ -64,7 +64,7 @@ const LeadForm = () => {
                 {/* Full Name */}
                 <div>
                     <label htmlFor="name" className="block text-sm font-medium mb-2">
-                        Full Name
+                        {t('form.fullName')}
                     </label>
                     <input
                         type="text"
@@ -78,7 +78,7 @@ const LeadForm = () => {
                 {/* Email */}
                 <div>
                     <label htmlFor="email" className="block text-sm font-medium mb-2">
-                        Work Email
+                        {t('form.email')}
                     </label>
                     <input
                         type="email"
@@ -92,7 +92,7 @@ const LeadForm = () => {
                 {/* Phone */}
                 <div>
                     <label htmlFor="phone" className="block text-sm font-medium mb-2">
-                        Phone Number
+                        {t('form.phone')}
                     </label>
                     <input
                         type="tel"
@@ -105,7 +105,7 @@ const LeadForm = () => {
                 {/* Plan Selection */}
                 <div>
                     <label htmlFor="plan" className="block text-sm font-medium mb-2">
-                        Interested Plan
+                        {t('form.plan.label')}
                     </label>
                     <select
                         id="plan"
@@ -113,17 +113,17 @@ const LeadForm = () => {
                         required
                         className="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-black focus:outline-none"
                     >
-                        <option value="">Select a plan</option>
-                        <option value="pro">Pro Plan</option>
-                        <option value="plus">Plus Plan</option>
-                        <option value="enterprise">Enterprise</option>
+                        <option value="">{t('form.plan.placeholder')}</option>
+                        <option value="pro">{t('form.plan.pro')}</option>
+                        <option value="plus">{t('form.plan.plus')}</option>
+                        <option value="enterprise">{t('form.plan.enterprise')}</option>
                     </select>
                 </div>
 
                 {/* Company Size */}
                 <div>
                     <label htmlFor="size" className="block text-sm font-medium mb-2">
-                        Company Size
+                        {t('form.companySize.label')}
                     </label>
                     <select
                         id="size"
@@ -131,25 +131,25 @@ const LeadForm = () => {
                         required
                         className="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-black focus:outline-none"
                     >
-                        <option value="">Select company size</option>
-                        <option value="1-10">1-10 employees</option>
-                        <option value="11-50">11-50 employees</option>
-                        <option value="51-200">51-200 employees</option>
-                        <option value="201+">201+ employees</option>
+                        <option value="">{t('form.companySize.placeholder')}</option>
+                        <option value="1-10">{t('form.companySize.size1')}</option>
+                        <option value="11-50">{t('form.companySize.size2')}</option>
+                        <option value="51-200">{t('form.companySize.size3')}</option>
+                        <option value="201+">{t('form.companySize.size4')}</option>
                     </select>
                 </div>
 
                 {/* Message */}
                 <div>
                     <label htmlFor="message" className="block text-sm font-medium mb-2">
-                        Additional Information (Optional)
+                        {t('form.message.label')}
                     </label>
                     <textarea
                         id="message"
                         name="message"
                         rows={4}
                         className="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-black focus:outline-none"
-                        placeholder="Tell us about your specific needs or questions..."
+                        placeholder={t('form.message.placeholder')}
                     />
                 </div>
 
@@ -159,13 +159,13 @@ const LeadForm = () => {
                         type="submit"
                         className="w-full bg-black text-white py-3 rounded-lg font-semibold hover:bg-gray-900 transition-colors"
                     >
-                        Submit Pre-order Request
+                        {t('form.submit')}
                     </button>
                 </div>
 
                 {/* Privacy Note */}
                 <p className="text-sm text-gray-500 text-center">
-                    By submitting this form, you agree to our privacy policy and terms of service.
+                    {t('form.privacyNote')}
                 </p>
             </form>
         </section>

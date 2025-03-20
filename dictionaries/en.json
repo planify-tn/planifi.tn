@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "title": "PLANIFI - Tender Management Platform",
+    "description": "Affordable SAAS for small and medium businesses - Streamline your tender management process with our intuitive platform"
+  },
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "tryFree": "Try Free",
+    "tagline": "Tender Management Platform"
+  },
+  "hero": {
+    "badge": "Coming Soon - Join Waitlist",
+    "title": "Win More Tenders,",
+    "highlight": "With Less Effort",
+    "description": "PLANIFI streamlines your entire tender process from discovery to submission with our all-in-one platform built for serious businesses.",
+    "cta": "Join Waitlist"
+  },
+  "features": {
+    "title": "Comprehensive Tender Management",
+    "subtitle": "PLANIFI combines all the tools you need to win more tenders in one powerful, easy-to-use platform.",
+    "items": {
+      "userManagement": {
+        "title": "User Management",
+        "description": "Secure authentication with role-based access control for seamless team collaboration on tenders.",
+        "benefit": "Keep your sensitive tender documents secure while enabling team collaboration."
+      },
+      "projectManagement": {
+        "title": "Project Management",
+        "description": "Customize your projects with unique views: Kanban, Gantt, and List views.",
+        "benefit": "Never miss a tender deadline with visual progress tracking."
+      },
+      "documentRepository": {
+        "title": "Document Repository",
+        "description": "Intelligent document management with version control and template library.",
+        "benefit": "Find the right documents instantly and maintain perfect version history."
+      },
+      "organizationManagement": {
+        "title": "Organization Management",
+        "description": "Manage your team's resumes, skills, and company structure for faster tender responses.",
+        "benefit": "Reduce response time by 40% with ready-to-use company information."
+      },
+      "tenderManagement": {
+        "title": "Tender Management",
+        "description": "Discover, track, and respond to tender opportunities all in one place.",
+        "benefit": "Never miss a relevant tender opportunity with smart alerts."
+      },
+      "builtinTools": {
+        "title": "Built-in Tools",
+        "description": "Essential tools including resume builder, currency converter, and compliance checkers.",
+        "benefit": "Save time with specialized tools designed for tender success."
+      }
+    },
+    "cta": "Join Waitlist"
+  },
+  "pricing": {
+    "title": "Pricing Plans",
+    "subtitle": "Choose the perfect plan for your business needs",
+    "monthly": "Monthly",
+    "quarterly": "Quarterly",
+    "savingsLabel": "Save 10% with quarterly billing",
+    "monthly_period": "per user/month",
+    "quarterly_period": "per user/month, billed quarterly",
+    "custom_price": "Custom",
+    "custom_period": "tailored to your needs",
+    "included": "What's included",
+    "helpText": "Need help choosing the right plan?",
+    "contactSales": "Contact our sales team",
+    "features": {
+      "unlimited_projects": "Unlimited projects",
+      "team_members_20": "20 team members",
+      "team_members_10": "10 team members",
+      "team_members_unlimited": "Unlimited team members",
+      "advanced_project_views": "Advanced project views",
+      "basic_project_views": "Basic project views",
+      "all_project_views": "All project views",
+      "document_repository": "Document repository",
+      "advanced_document_repository": "Advanced document repository",
+      "document_versioning": "Document versioning",
+      "basic_document_versioning": "Basic document versioning",
+      "advanced_document_versioning": "Advanced document versioning",
+      "tender_tracking": "Tender tracking",
+      "advanced_tender_tracking": "Advanced tender tracking",
+      "storage_5gb": "5GB storage per user",
+      "storage_2gb": "2GB storage per user",
+      "custom_storage": "Custom storage allocation",
+      "priority_support": "Priority support",
+      "standard_support": "Standard support",
+      "dedicated_support": "Dedicated support",
+      "custom_integrations": "Custom integrations",
+      "on_premises": "On-premises deployment option"
+    },
+    "plans": {
+      "pro": {
+        "name": "Pro",
+        "description": "For professional teams managing multiple projects",
+        "cta": "Get started with Pro",
+        "badge": ""
+      },
+      "plus": {
+        "name": "Plus",
+        "description": "For growing teams with expanding needs",
+        "cta": "Get started with Plus",
+        "badge": "Most popular"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "For large organizations with custom requirements",
+        "cta": "Contact sales",
+        "badge": ""
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about Planify's features, pricing, and technical details",
+    "searchPlaceholder": "Search questions...",
+    "categories": {
+      "all": "All Questions",
+      "features": "Features & Usage",
+      "pricing": "Pricing & Plans",
+      "technical": "Technical & Hosting",
+      "team": "Team & Access"
+    },
+    "noResults": "No questions matching your criteria.",
+    "resetFilters": "Reset filters",
+    "stillHaveQuestions": {
+      "title": "Still have questions?",
+      "text": "Our team is here to help you get the most out of Planify",
+      "cta": "Contact Support"
+    }
+  },
+  "footer": {
+    "cta": {
+      "title": "Ready to Transform Your Tender Process?",
+      "text": "Join the waitlist today and benefit from exclusive early-bird pricing",
+      "button": "Get Started Now",
+      "subtitle": "Join the waitlist today and benefit from exclusive early-bird pricing"
+    },
+    "copyright": "All rights reserved."
+  },
+  "form": {
+    "title": "Submit your request",
+    "company": "Company Name",
+    "fullName": "Full Name",
+    "email": "Business Email",
+    "phone": "Phone Number",
+    "plan": {
+      "label": "Interested Plan",
+      "placeholder": "Select a plan",
+      "pro": "Pro Plan",
+      "plus": "Plus Plan",
+      "enterprise": "Enterprise"
+    },
+    "companySize": {
+      "label": "Company Size",
+      "placeholder": "Select company size",
+      "size1": "1-10 employees",
+      "size2": "11-50 employees",
+      "size3": "51-200 employees",
+      "size4": "201+ employees"
+    },
+    "message": {
+      "label": "Additional Information (Optional)",
+      "placeholder": "Tell us about your specific needs or questions..."
+    },
+    "submit": "Submit Pre-order Request",
+    "privacyNote": "By submitting this form, you agree to our privacy policy and terms of use.",
+    "success": "Thank you for your submission!",
+    "error": "An error occurred. Please try again."
+  }
+}
