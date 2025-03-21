@@ -43,7 +43,7 @@ function FAQ() {
         });
 
         setFilteredFaqs(filtered);
-    }, [searchTerm, activeCategory]);
+    }, [searchTerm, activeCategory, faqs]);
 
     return (
         <section className="container mx-auto px-4 relative py-24" id="faq">
