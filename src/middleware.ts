@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { i18n } from "./../i18n.config";
+import { i18n, Locale } from "./../i18n.config";
 
 export function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
@@ -42,13 +42,13 @@ function getPreferredLocale(request: NextRequest): string {
   const acceptedLanguages = acceptLanguage
     .split(",")
     .map((lang) => lang.split(";")[0].trim().toLowerCase());
+
   const lang = acceptedLanguages[0];
-  //   for (const lang of acceptedLanguages) {
-  if (i18n.locales.includes(lang as any)) return lang;
+
+  if (i18n.locales.includes(lang as Locale)) return lang;
 
   const languageCode = lang.split("-")[0];
-  if (i18n.locales.includes(languageCode as any)) return languageCode;
-  //   }
+  if (i18n.locales.includes(languageCode as Locale)) return languageCode;
 
   return i18n.defaultLocale;
 }
