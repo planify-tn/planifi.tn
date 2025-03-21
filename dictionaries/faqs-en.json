@@ -1,0 +1,99 @@
+{
+  "faqs": [
+    {
+      "question": "How does the tender grabber extension work?",
+      "answer": "Our browser extension automatically detects and extracts tender information from supported websites. With one click, it imports all relevant data directly into your platform account, maintaining proper formatting and organization.",
+      "category": "features"
+    },
+    {
+      "question": "What file formats does the platform support?",
+      "answer": "PLANIFY supports all common file formats including PDF, Word, Excel, PowerPoint, image files, and CAD drawings. Our smart file manager helps organize and version control all your documents with advanced search capabilities.",
+      "category": "features"
+    },
+    {
+      "question": "Is there a limit to how many tenders I can manage?",
+      "answer": "No, all plans come with unlimited tender management. You can track and manage as many tenders as your business requires without any additional costs.",
+      "category": "features"
+    },
+    {
+      "question": "Can I customize the HR module for my company structure?",
+      "answer": "Yes, the HR module is fully customizable to match your organization's hierarchy, departments, and roles. You can easily add custom fields, create specific workflows, and adjust permissions to match your needs.",
+      "category": "features"
+    },
+    {
+      "question": "What are the differences between Pro and Plus plans?",
+      "answer": "The Pro plan includes essential features like HR module (up to 50 employees), 10GB document storage, basic project management, and support for up to 10 team members. The Plus plan adds unlimited employees, 50GB storage, advanced project management, the browser extension for automatic tender capturing, priority support, advanced analytics, and API access for integrations.",
+      "category": "pricing"
+    },
+    {
+      "question": "Do you offer a free trial?",
+      "answer": "Yes, we offer a 14-day free trial on both Pro and Plus plans. No credit card is required to start your trial, and you'll have access to all features in your selected plan.",
+      "category": "pricing"
+    },
+    {
+      "question": "Are there any long-term contracts?",
+      "answer": "No, all our plans are billed month-to-month with no long-term commitment required. However, we do offer discounts of up to 20% for annual subscriptions, which can provide significant savings.",
+      "category": "pricing"
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept major credit cards (Visa, Mastercard), bank transfers, and mobile payment solutions available in Tunisia. Enterprise customers can arrange for invoice-based payments with custom billing cycles.",
+      "category": "pricing"
+    },
+    {
+      "question": "Can I get a refund?",
+      "answer": "We offer a 30-day money-back guarantee if you're not satisfied with our service. Contact our support team to process your refund, no questions asked.",
+      "category": "pricing"
+    },
+    {
+      "question": "Where is my data stored?",
+      "answer": "Your data is securely stored in our cloud infrastructure with servers located in Europe / Tunisia, ensuring high availability and compliance with data protection regulations. All data is encrypted both in transit and at rest.",
+      "category": "technical"
+    },
+    {
+      "question": "Can I host PLANIFI on my own servers?",
+      "answer": "Yes, we offer self-hosting options for enterprise customers. Our self-hosted solution can be deployed on-premises or in your private cloud environment, giving you complete control over your data and configuration.",
+      "category": "technical"
+    },
+    {
+      "question": "How often is my data backed up?",
+      "answer": "We perform automated backups daily, with point-in-time recovery available for the last 30 days. Enterprise customers can configure custom backup schedules and longer retention periods to meet specific requirements.",
+      "category": "technical"
+    },
+    {
+      "question": "What is your uptime guarantee?",
+      "answer": "We maintain a 99.9% uptime SLA for our cloud-hosted solution, with real-time status monitoring and alerts. Our infrastructure is designed with redundancy at every level to ensure continuous availability.",
+      "category": "technical"
+    },
+    {
+      "question": "Which browsers are supported?",
+      "answer": "PLANIFI works on all modern browsers including Chrome, Firefox, Safari, and Edge. Our browser extension is currently available for Chrome and Firefox, with support for other browsers coming soon.",
+      "category": "technical"
+    },
+    {
+      "question": "Does PLANIFI work with other business tools?",
+      "answer": "Yes, PLANIFY integrates with common business tools including Office 365, Google Workspace, popular CRM systems, and project management tools. Plus plan users get API access for custom integrations with your existing systems.",
+      "category": "technical"
+    },
+    {
+      "question": "Is there a limit to how many team members I can add?",
+      "answer": "Pro plan supports up to 10 team members, while Plus plan allows unlimited team members. Each plan includes granular permission controls to manage access levels for different team members.",
+      "category": "team"
+    },
+    {
+      "question": "Can I control what different team members can access?",
+      "answer": "Yes, PLANIFI offers comprehensive role-based access control. Administrators can set specific permissions for each team member, controlling their access to sensitive documents, projects, and features based on their role and responsibilities.",
+      "category": "team"
+    },
+    {
+      "question": "How do I add team members to the platform?",
+      "answer": "Adding team members is simple. As an administrator, you can invite team members via email from the Team Management section. They'll receive an invitation to create an account and will be automatically added to your organization with the permissions you've assigned.",
+      "category": "team"
+    },
+    {
+      "question": "Can I transfer ownership of projects between team members?",
+      "answer": "Yes, project ownership and responsibilities can be easily transferred between team members. This is particularly useful when staff changes occur or when reorganizing your team structure for specific tender responses.",
+      "category": "team"
+    }
+  ]
+}

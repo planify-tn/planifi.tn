@@ -1,9 +1,14 @@
+'use client';
 import { TSocialsLinks } from '@/lib/type';
 import { ArrowUpRight } from 'lucide-react';
 import Link from 'next/link';
-import React from 'react'
+import React from 'react';
+import { useLocale } from '../../context/localContext';
+import { localizedRoutes } from '../../i18n.config';
 
 function Footer() {
+    const { t, locale, } = useLocale();
+    const currentYear = new Date().getFullYear();
 
     const SOCIALS: TSocialsLinks[] = [
         {
@@ -50,18 +55,21 @@ function Footer() {
 
                 <div className="container mx-auto px-4 relative">
                     <div className="max-w-2xl mx-auto text-center">
-                        <h2 className="text-4xl font-bold mb-6">Ready to Transform Your Tender Process?</h2>
+                        <h2 className="text-4xl font-bold mb-6">{t('footer.cta.title')}</h2>
                         <p className="text-xl mb-12 text-gray-400">
-                            Join the waitlist today and get exclusive early-bird pricing
+                            {t('footer.cta.subtitle')}
                         </p>
-                        <a href="/request" className="group bg-white text-black px-8 py-4 rounded-full font-semibold inline-flex items-center gap-2 hover:bg-gray-100 transition-colors">
-                            Get Started Now
-                            <ArrowUpRight className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-                        </a>
+                        <Link
+                            href={localizedRoutes.request[locale]}
+                            className={`group bg-white text-black px-8 py-4 rounded-full font-semibold inline-flex items-center gap-2 hover:bg-gray-100 transition-colors `}
+                        >
+                            {t('footer.cta.button')}
+                            <ArrowUpRight className={`w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform `} />
+                        </Link>
                     </div>
                 </div>
 
-                <div className="flex justify-center mt-8 space-x-6">
+                <div className={`flex justify-center mt-8  space-x-6`}>
                     {
                         SOCIALS.map((item: TSocialsLinks, index: number) => (
                             <a key={index} target="_blank" href={item.href} className="hover:text-gray-500">
@@ -72,7 +80,7 @@ function Footer() {
                 </div>
             </div>
             <p className="py-8 text-base leading-6 text-center text-white">
-                © {new Date().getFullYear()} <Link href={'https://maak-corp.tn'}><strong>MAAK CORP</strong></Link>, All rights reserved.
+                {t('footer.copyright').replace('{year}', currentYear.toString())} <Link href={'https://maak-corp.tn'}><strong>MAAK CORP</strong></Link>
             </p>
         </footer>
     )

@@ -1,9 +1,14 @@
+"use client";
+
 import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import { useLocale } from '../../context/localContext'
+import { localizedRoutes } from '../../i18n.config';
 
 function HeroSection() {
+    const { t, locale } = useLocale();
     return (
         <section className="py-20 bg-gradient-to-b from-gray-100 to-white">
             <div className="container mx-auto px-4 lg:px-0 relative">
@@ -11,21 +16,21 @@ function HeroSection() {
                     <div className="lg:w-1/2 flex flex-col gap-8">
 
                         <span className="bg-black text-white px-3 py-1 w-fit rounded-full text-sm font-medium mb-4 inline-block">
-                            Coming Soon - Join Waitlist
+                            {t('hero.badge')}
                         </span>
 
                         <div>
                             <h1 className="text-5xl md:text-6xl font-bold text-black mb-6 leading-tight">
-                                Win More Tenders, <span className="bg-black text-white px-4">With Less Effort</span>
+                                {t('hero.title')}, <span className="bg-black text-white px-4">{t('hero.highlight')} </span>
                             </h1>
                             <p className="text-xl text-gray-600 mb-8">
-                                PLANIFI streamlines your entire tender process from discovery to submission with our
-                                all-in-one platform built for serious businesses.
+                                {t('hero.description')}
                             </p>
                         </div>
 
-                        <Link href='/request' className="group bg-black text-white px-8 py-4 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-gray-900 transition-all w-full lg:w-fit">
-                            Join Waitlist
+                        <Link href={localizedRoutes.request[locale]}
+                            className="group bg-black text-white px-8 py-4 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-gray-900 transition-all w-full lg:w-fit">
+                            {t('hero.cta')}
                             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                         </Link>
                     </div>

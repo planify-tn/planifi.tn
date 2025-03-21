@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "PLANIFI - Plateforme de Gestion d'Appels d'Offres",
+    "description": "Solution SAAS abordable pour les petites et moyennes entreprises - Simplifiez votre processus de gestion d'appels d'offres avec notre plateforme intuitive"
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "faq": "FAQ",
+    "tryFree": "Essai Gratuit",
+    "tagline": "Plateforme de Gestion d'Appels d'Offres"
+  },
+  "hero": {
+    "badge": "Bientôt Disponible - Rejoignez la Liste d'Attente",
+    "title": "Gagnez Plus d'Appels d'Offres,",
+    "highlight": "Avec Moins d'Effort",
+    "description": "PLANIFI simplifie l'ensemble de votre processus d'appel d'offres, de la découverte à la soumission, grâce à notre plateforme tout-en-un conçue pour les entreprises sérieuses.",
+    "cta": "Rejoindre la Liste d'Attente"
+  },
+  "features": {
+    "title": "Gestion Complète des Appels d'Offres",
+    "subtitle": "PLANIFI combine tous les outils dont vous avez besoin pour gagner plus d'appels d'offres dans une plateforme puissante et facile à utiliser.",
+    "items": {
+      "userManagement": {
+        "title": "Gestion des Utilisateurs",
+        "description": "Authentification sécurisée avec contrôle d'accès basé sur les rôles pour une collaboration d'équipe fluide sur les appels d'offres.",
+        "benefit": "Gardez vos documents d'appel d'offres sensibles en sécurité tout en permettant la collaboration d'équipe."
+      },
+      "projectManagement": {
+        "title": "Gestion de Projets",
+        "description": "Personnalisez vos projets avec des vues uniques : Kanban, Gantt et vues en liste.",
+        "benefit": "Ne manquez jamais une date limite d'appel d'offres grâce au suivi visuel de progression."
+      },
+      "documentRepository": {
+        "title": "Dépôt de Documents",
+        "description": "Gestion intelligente des documents avec contrôle de version et bibliothèque de modèles.",
+        "benefit": "Trouvez instantanément les bons documents et maintenez un historique de version parfait."
+      },
+      "organizationManagement": {
+        "title": "Gestion de l'Organisation",
+        "description": "Gérez les CV de votre équipe, les compétences et la structure d'entreprise pour des réponses plus rapides aux appels d'offres.",
+        "benefit": "Réduisez le temps de réponse de 40% avec des informations d'entreprise prêtes à l'emploi."
+      },
+      "tenderManagement": {
+        "title": "Gestion des Appels d'Offres",
+        "description": "Découvrez, suivez et répondez aux opportunités d'appels d'offres, le tout en un seul endroit.",
+        "benefit": "Ne manquez jamais une opportunité d'appel d'offres pertinente grâce aux alertes intelligentes."
+      },
+      "builtinTools": {
+        "title": "Outils Intégrés",
+        "description": "Outils essentiels incluant un créateur de CV, un convertisseur de devises et des vérificateurs de conformité.",
+        "benefit": "Gagnez du temps avec des outils spécialisés conçus pour le succès des appels d'offres."
+      }
+    },
+    "cta": "Rejoindre la Liste d'Attente"
+  },
+
+  "pricing": {
+    "title": "Plans Tarifaires",
+    "subtitle": "Choisissez le plan parfait pour les besoins de votre entreprise",
+    "monthly": "Mensuel",
+    "quarterly": "Trimestriel",
+    "savingsLabel": "Économisez 10% avec facturation trimestrielle",
+    "monthly_period": "par utilisateur/mois",
+    "quarterly_period": "par utilisateur/mois, facturé trimestriellement",
+    "custom_price": "Personnalisé",
+    "custom_period": "adapté à vos besoins",
+    "included": "Ce qui est inclus",
+    "helpText": "Besoin d'aide pour choisir le bon plan?",
+    "contactSales": "Contactez notre équipe commerciale",
+    "features": {
+      "unlimited_projects": "Projets illimités",
+      "team_members_20": "20 membres d'équipe",
+      "team_members_10": "10 membres d'équipe",
+      "team_members_unlimited": "Membres d'équipe illimités",
+      "advanced_project_views": "Vues de projet avancées",
+      "basic_project_views": "Vues de projet basiques",
+      "all_project_views": "Toutes les vues de projet",
+      "document_repository": "Dépôt de documents",
+      "advanced_document_repository": "Dépôt de documents avancé",
+      "document_versioning": "Gestion de versions de documents",
+      "basic_document_versioning": "Gestion basique des versions de documents",
+      "advanced_document_versioning": "Gestion avancée des versions de documents",
+      "tender_tracking": "Suivi des appels d'offres",
+      "advanced_tender_tracking": "Suivi avancé des appels d'offres",
+      "storage_5gb": "5 Go de stockage par utilisateur",
+      "storage_2gb": "2 Go de stockage par utilisateur",
+      "custom_storage": "Allocation de stockage personnalisée",
+      "priority_support": "Support prioritaire",
+      "standard_support": "Support standard",
+      "dedicated_support": "Support dédié",
+      "custom_integrations": "Intégrations personnalisées",
+      "on_premises": "Option de déploiement sur site"
+    },
+    "plans": {
+      "pro": {
+        "name": "Pro",
+        "description": "Pour les équipes professionnelles gérant plusieurs projets",
+        "cta": "Commencer avec Pro",
+        "badge": ""
+      },
+      "plus": {
+        "name": "Plus",
+        "description": "Pour les équipes en croissance avec des besoins en expansion",
+        "cta": "Commencer avec Plus",
+        "badge": "Le plus populaire"
+      },
+      "enterprise": {
+        "name": "Entreprise",
+        "description": "Pour les grandes organisations avec des exigences personnalisées",
+        "cta": "Contacter les ventes",
+        "badge": ""
+      }
+    }
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "subtitle": "Trouvez des réponses aux questions courantes sur les fonctionnalités, les tarifs et les détails techniques de Planify",
+    "searchPlaceholder": "Rechercher des questions...",
+    "categories": {
+      "all": "Toutes les Questions",
+      "features": "Fonctionnalités & Utilisation",
+      "pricing": "Tarifs & Forfaits",
+      "technical": "Technique & Hébergement",
+      "team": "Équipe & Accès"
+    },
+    "noResults": "Aucune question correspondant à vos critères.",
+    "resetFilters": "Réinitialiser les filtres",
+    "stillHaveQuestions": {
+      "title": "Vous avez encore des questions ?",
+      "text": "Notre équipe est là pour vous aider à tirer le meilleur parti de Planify",
+      "cta": "Contacter le Support"
+    }
+  },
+  "footer": {
+    "cta": {
+      "title": "Prêt à Transformer Votre Processus d'Appel d'Offres ?",
+      "text": "Rejoignez la liste d'attente aujourd'hui et bénéficiez d'un tarif exclusif pour les premiers utilisateurs",
+      "button": "Commencer Maintenant",
+      "subtitle": "Rejoignez la liste d'attente aujourd'hui et bénéficiez d'un tarif exclusif pour les premiers utilisateurs"
+    },
+    "copyright": "Tous droits réservés."
+  },
+  "form": {
+    "title": "Soumettez votre demande",
+    "company": "Nom de l'Entreprise",
+    "fullName": "Nom Complet",
+    "email": "Email Professionnel",
+    "phone": "Numéro de Téléphone",
+    "plan": {
+      "label": "Forfait Intéressé",
+      "placeholder": "Sélectionnez un forfait",
+      "pro": "Forfait Pro",
+      "plus": "Forfait Plus",
+      "enterprise": "Entreprise"
+    },
+    "companySize": {
+      "label": "Taille de l'Entreprise",
+      "placeholder": "Sélectionnez la taille de l'entreprise",
+      "size1": "1-10 employés",
+      "size2": "11-50 employés",
+      "size3": "51-200 employés",
+      "size4": "201+ employés"
+    },
+    "message": {
+      "label": "Informations Supplémentaires (Optionnel)",
+      "placeholder": "Parlez-nous de vos besoins spécifiques ou de vos questions..."
+    },
+    "submit": "Soumettre la Demande de Précommande",
+    "privacyNote": "En soumettant ce formulaire, vous acceptez notre politique de confidentialité et nos conditions d'utilisation.",
+    "success": "Merci pour votre soumission !",
+    "error": "Une erreur s'est produite. Veuillez réessayer."
+  },
+  "languageSwitcher": "Langue"
+}
