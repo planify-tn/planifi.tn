@@ -11,12 +11,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        border: '#303436'
+        border: "#303436",
       },
       height: {
-        sahredSection: 'calc(100vh - var(--navbar-height))'
-      }
+        sahredSection: "calc(100vh - var(--navbar-height))",
+      },
     },
   },
   plugins: [],
+  darkMode: "class",
 } satisfies Config;

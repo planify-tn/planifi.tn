@@ -43,7 +43,7 @@ function Features() {
     ]
 
     return (
-        <section id='features' className='py-24 bg-gray-50'>
+        <section id='features' className='py-24 '>
             <div className='container mx-auto px-4 lg:px-0 space-y-12'>
                 <div className='text-center'>
                     <h2 className="text-4xl font-bold mb-4">Comprehensive Tender Management</h2>

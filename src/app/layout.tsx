@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Nav from "@/components/nav";
 import Footer from "@/components/footer";
+import { Providers } from "./providers";
 
 export const metadata: Metadata = {
     title: "PLANIFI - MAAK CORP",
@@ -88,7 +89,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
+        <html lang="en" suppressHydrationWarning>
             <head>
                 <script
                     type="application/ld+json"
@@ -123,10 +124,11 @@ export default function RootLayout({
                     }}
                 />
             </head>
-            <body className="antialiased text-black">
-                <Nav />
-                {children}
-                <Footer />
+            <body className=" bg-white dark:bg-black text-black dark:text-white  ">
+                <Providers>
+                    <Nav />
+                    {children}
+                    <Footer /></Providers>
             </body>
         </html>
     );

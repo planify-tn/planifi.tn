@@ -5,7 +5,7 @@ import React from 'react'
 
 function HeroSection() {
     return (
-        <section className="py-20 bg-gradient-to-b from-gray-100 to-white">
+        <section className="py-20 ">
             <div className="container mx-auto px-4 lg:px-0 relative">
                 <div className="flex flex-col lg:flex-row items-center gap-8">
                     <div className="lg:w-1/2 flex flex-col gap-8">

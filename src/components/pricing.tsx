@@ -88,7 +88,7 @@ function Pricing() {
     ];
 
     return (
-        <section id='pricing' className='py-24 bg-gray-50'>
+        <section id='pricing' className='py-24 '>
             <div className='container mx-auto px-4 lg:px-0 space-y-16'>
                 <div className='text-center6'>
                     <h2 className="text-4xl font-bold mb-4">Choose Your Plan</h2>

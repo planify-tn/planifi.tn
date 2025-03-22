@@ -4,6 +4,7 @@ import Link from 'next/link';
 import React, { useState } from 'react'
 import { Menu, X } from 'lucide-react';
 import Image from 'next/image';
+import { ThemeSwitcher } from './themeSwitcher';
 
 function Nav() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -44,7 +45,7 @@ function Nav() {
                         <span className="text-xs text-gray-400">Tender Management Platform</span>
                     </div>
                 </Link>
-
+                <ThemeSwitcher />
                 {/* Desktop Menu */}
                 <div className='hidden md:flex items-center gap-8'>
                     <div className="flex gap-8">

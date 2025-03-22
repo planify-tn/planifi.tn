@@ -39,7 +39,7 @@ function FAQ() {
             answer: "Yes, the HR module is fully customizable to match your organization's hierarchy, departments, and roles. You can easily add custom fields, create specific workflows, and adjust permissions to match your needs.",
             category: "features"
         },
-        
+
         // Pricing & Plans FAQs
         {
             question: "What are the differences between Pro and Plus plans?",
@@ -66,7 +66,7 @@ function FAQ() {
             answer: "We offer a 30-day money-back guarantee if you're not satisfied with our service. Contact our support team to process your refund, no questions asked.",
             category: "pricing"
         },
-        
+
         // Technical & Hosting FAQs
         {
             question: "Where is my data stored?",
@@ -98,7 +98,7 @@ function FAQ() {
             answer: "Yes, PLANIFY integrates with common business tools including Office 365, Google Workspace, popular CRM systems, and project management tools. Plus plan users get API access for custom integrations with your existing systems.",
             category: "technical"
         },
-        
+
         // Team & Access FAQs
         {
             question: "Is there a limit to how many team members I can add?",
@@ -126,13 +126,13 @@ function FAQ() {
     useEffect(() => {
         const filtered = faqs.filter(faq => {
             const matchesCategory = activeCategory === 'all' || faq.category === activeCategory;
-            const matchesSearch = searchTerm === '' || 
-                faq.question.toLowerCase().includes(searchTerm.toLowerCase()) || 
+            const matchesSearch = searchTerm === '' ||
+                faq.question.toLowerCase().includes(searchTerm.toLowerCase()) ||
                 faq.answer.toLowerCase().includes(searchTerm.toLowerCase());
-            
+
             return matchesCategory && matchesSearch;
         });
-        
+
         setFilteredFaqs(filtered);
     }, [searchTerm, activeCategory]);
 
@@ -143,7 +143,7 @@ function FAQ() {
                 <p className="text-xl text-gray-600 text-center mb-12">
                     Find answers to common questions about Planify's features, pricing, and technical details
                 </p>
-                
+
                 {/* Search Bar */}
                 <div className="relative mb-8">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -157,24 +157,23 @@ function FAQ() {
                         onChange={(e) => setSearchTerm(e.target.value)}
                     />
                 </div>
-                
+
                 {/* Category Tabs */}
                 <div className="flex flex-wrap gap-2 mb-8">
                     {categories.map(category => (
                         <button
                             key={category.id}
-                            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                                activeCategory === category.id
+                            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${activeCategory === category.id
                                     ? 'bg-black text-white'
                                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                            }`}
+                                }`}
                             onClick={() => setActiveCategory(category.id)}
                         >
                             {category.name}
                         </button>
                     ))}
                 </div>
-                
+
                 {/* FAQ Items */}
                 <div className="space-y-4">
                     {filteredFaqs.length > 0 ? (
@@ -210,7 +209,7 @@ function FAQ() {
                     ) : (
                         <div className="text-center py-10">
                             <p className="text-gray-500">No questions found matching your criteria.</p>
-                            <button 
+                            <button
                                 className="mt-4 text-black font-medium underline"
                                 onClick={() => {
                                     setSearchTerm('');
@@ -222,15 +221,15 @@ function FAQ() {
                         </div>
                     )}
                 </div>
-                
+
                 {/* Still have questions */}
-                <div className="mt-16 text-center p-8 bg-gray-50 rounded-2xl">
+                <div className="mt-16 text-center p-8  rounded-2xl">
                     <h3 className="text-2xl font-bold mb-3">Still have questions?</h3>
                     <p className="text-gray-600 mb-6">
                         Our team is here to help you get the most out of Planify
                     </p>
-                    <a 
-                        href="/contact" 
+                    <a
+                        href="/contact"
                         className="inline-block bg-black text-white px-6 py-3 rounded-full font-medium hover:bg-gray-900 transition-colors"
                     >
                         Contact Support

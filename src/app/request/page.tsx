@@ -30,7 +30,7 @@ const LeadForm = () => {
 
 
     return (
-        <section className="min-h-screen bg-white py-12">
+        <section className="min-h-screen py-12">
             <h1 className='mx-auto text-3xl py-12 text-center font-semibold capitalize'>Submit your request</h1>
             <form
                 name="preorder-contact"
