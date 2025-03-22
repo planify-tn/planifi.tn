@@ -5,6 +5,7 @@ import { getDictionary } from '../../../dictionaries';
 import { i18n, Locale } from '../../../i18n.config';
 import Nav from '@/components/nav';
 import Footer from '@/components/footer';
+import { Providers } from '../providers';
 
 export async function generateStaticParams() {
     return i18n.locales.map((locale) => ({ locale }));
@@ -106,7 +107,7 @@ export default async function RootLayout({
     };
 
     return (
-        <html lang={locale} dir={isRtl ? 'rtl' : 'ltr'}>
+        <html suppressHydrationWarning lang={locale} dir={isRtl ? 'rtl' : 'ltr'}>
             <head>
                 <script
                     type="application/ld+json"
@@ -115,12 +116,13 @@ export default async function RootLayout({
                     }}
                 />
             </head>
-            <body className={`antialiased text-black ${isRtl ? 'font-arabic' : ''}`}>
-                <LocaleProvider locale={locale} dictionary={dictionary}>
-                    <Nav />
-                    {children}
-                    <Footer />
-                </LocaleProvider>
+            <body className={` bg-white dark:bg-black text-black dark:text-white antialiased text-black ${isRtl ? 'font-arabic' : ''}`}>
+                <Providers>
+                    <LocaleProvider locale={locale} dictionary={dictionary}>
+                        <Nav />
+                        {children}
+                        <Footer />
+                    </LocaleProvider></Providers>
             </body>
         </html>
     );

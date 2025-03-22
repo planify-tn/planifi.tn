@@ -41,13 +41,13 @@ export default function LanguageSwitcher() {
             </button>
 
             {isOpen && (
-                <div className="absolute top-full right-0 mt-2 w-32 bg-white rounded-md shadow-lg overflow-hidden z-50">
+                <div className="absolute top-full right-0 mt-2 w-32 dark:bg-black dark:text-white bg-white rounded-md shadow-lg overflow-hidden z-50">
                     <div className="py-1">
                         {i18n.locales.map((loc) => (
                             <button
                                 key={loc}
                                 onClick={() => selectLanguage(loc)}
-                                className={`w-full text-left px-4 py-2 text-sm ${locale === loc ? 'bg-gray-100 font-medium' : 'hover:bg-gray-50'}`}
+                                className={`w-full text-left px-4 py-2 text-sm ${locale === loc ? 'bg-gray-100 font-medium dark:bg-gray-800' : 'hover:bg-gray-50 dark:hover:bg-gray-700'} `}
                             >
                                 <span className="mr-2">{localeFlags[loc]}</span>
                                 {localeNames[loc]}

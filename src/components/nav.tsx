@@ -49,7 +49,6 @@ function Nav() {
                         <span className="text-xs text-gray-400">{t('nav.tagline')}</span>
                     </div>
                 </Link>
-                <ThemeSwitcher />
                 {/* Desktop Menu */}
                 <div className='hidden md:flex items-center gap-8'>
                     <div className="flex gap-8">
@@ -64,6 +63,8 @@ function Nav() {
                         ))}
                     </div>
                     <LanguageSwitcher />
+                    <ThemeSwitcher />
+
                     <Link href={localizedRoutes.request[locale]} className="bg-white text-black px-6 py-2 rounded-full text-sm font-semibold hover:bg-gray-100 transition-colors">
                         {t('nav.tryFree')}
                     </Link>
