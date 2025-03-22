@@ -46,7 +46,7 @@
         "description": "Discover, track, and respond to tender opportunities all in one place.",
         "benefit": "Never miss a relevant tender opportunity with smart alerts."
       },
-      "builtinTools": {
+      "builtInTools": {
         "title": "Built-in Tools",
         "description": "Essential tools including resume builder, currency converter, and compliance checkers.",
         "benefit": "Save time with specialized tools designed for tender success."

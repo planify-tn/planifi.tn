@@ -36,7 +36,7 @@ function Features() {
     ];
 
     return (
-        <section id='features' className='py-24 bg-gray-50'>
+        <section id='features' className='py-24 '>
             <div className='container mx-auto px-4 lg:px-0 space-y-12'>
                 <div className='text-center'>
                     <h2 className="text-4xl font-bold mb-4">{t('features.title')}</h2>
@@ -47,7 +47,7 @@ function Features() {
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {featureTypes.map((featureType, index) => (
-                        <div key={index} className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
+                        <div key={index} className="bg-white dark:bg-black rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
                             <div className={`flex gap-4 items-start mb-4 `}>
                                 <div className="bg-black rounded-full p-3 flex-shrink-0">
                                     {featureType.icon}
@@ -56,10 +56,10 @@ function Features() {
                                     {t(`features.items.${featureType.key}.title`)}
                                 </h3>
                             </div>
-                            <p className={`text-gray-600 mb-4 `}>
+                            <p className={`text-gray-600 dark:text-gray-400 mb-4 `}>
                                 {t(`features.items.${featureType.key}.description`)}
                             </p>
-                            <p className={`text-sm font-medium text-black bg-gray-100 p-3 rounded-lg `}>
+                            <p className={`text-sm font-medium text-black bg-gray-100 dark:bg-gray-800 dark:text-white p-3 rounded-lg `}>
                                 ✓ {t(`features.items.${featureType.key}.benefit`)}
                             </p>
                         </div>
@@ -69,7 +69,7 @@ function Features() {
                 <div className='flex justify-center'>
                     <Link
                         href={localizedRoutes.request[locale]}
-                        className={`group bg-black text-white px-8 py-4 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-gray-900 transition-all w-full lg:w-fit`}
+                        className={`group bg-black text-white dark:bg-white dark:text-black px-8 py-4 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-gray-900 transition-all w-full lg:w-fit`}
                     >
                         {t('features.cta')}
                         <ArrowRight className={`w-5 h-5  'group-hover:translate-x-1 transition-transform`} />

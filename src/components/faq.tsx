@@ -56,12 +56,12 @@ function FAQ() {
                 {/* Search Bar */}
                 <div className="relative mb-8">
                     <div className={`absolute inset-y-0  flex items-center pointer-events-none`}>
-                        <Search className="h-5 w-5 text-gray-400" />
+                        <Search className="h-5 w-5 text-gray-400 dark:text-gray-400" />
                     </div>
                     <input
                         type="text"
                         placeholder={t('faq.searchPlaceholder')}
-                        className={`block w-full  py-3 border border-gray-300 rounded-lg focus:ring-black focus:border-black`}
+                        className={`block w-full text-indedent-4 pl-6  py-3 border border-gray-300 rounded-lg focus:ring-black focus:border-black`}
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
                     />
@@ -73,8 +73,8 @@ function FAQ() {
                         <button
                             key={category.id}
                             className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${activeCategory === category.id
-                                ? 'bg-black text-white'
-                                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                                ? 'bg-black text-white dark:bg-white dark:text-black'
+                                : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-200 dark:hover:bg-gray-700'
                                 }`}
                             onClick={() => setActiveCategory(category.id)}
                         >
@@ -89,7 +89,7 @@ function FAQ() {
                         filteredFaqs.map((faq, index) => (
                             <div
                                 key={index}
-                                className="bg-white rounded-2xl overflow-hidden border-2 border-gray-200 hover:border-gray-300 transition-colors"
+                                className="bg-white rounded-2xl overflow-hidden border-2 border-gray-200 hover:border-gray-300 transition-colors dark:bg-gray-800 dark:border-gray-700"
                             >
                                 <button
                                     className={`w-full px-6 py-4  flex items-center justify-between font-semibold`}
@@ -104,10 +104,10 @@ function FAQ() {
                                     )}
                                 </button>
                                 {openFaq === index && (
-                                    <div className={`px-6 pb-5 text-gray-600 `}>
-                                        <p className="text-gray-600">{faq.answer}</p>
+                                    <div className={`px-6 pb-5 text-gray-600 dark:text-gray-400 `}>
+                                        <p className="text-gray-600 dark:text-gray-400">{faq.answer}</p>
                                         <div className={`mt-3 flex `}>
-                                            <span className="inline-block px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full uppercase">
+                                            <span className="inline-block px-3 py-1 bg-gray-100 text-gray-700 text-xs font-medium rounded-full uppercase dark:bg-gray-700 dark:text-gray-200">
                                                 {categories.find(cat => cat.id === faq.category)?.name || faq.category}
                                             </span>
                                         </div>
@@ -132,14 +132,14 @@ function FAQ() {
                 </div>
 
                 {/* Still have questions */}
-                <div className="mt-16 text-center p-8 bg-gray-50 rounded-2xl">
+                <div className="mt-16 text-center p-8 bg-gray-50 rounded-2xl dark:bg-gray-950">
                     <h3 className="text-2xl font-bold mb-3">{t('faq.stillHaveQuestions.title')}</h3>
-                    <p className="text-gray-600 mb-6">
+                    <p className="text-gray-600 mb-6 dark:text-gray-400">
                         {t('faq.stillHaveQuestions.text')}
                     </p>
                     <Link
                         href={localizedRoutes.contact[locale]}
-                        className="inline-block bg-black text-white px-6 py-3 rounded-full font-medium hover:bg-gray-900 transition-colors"
+                        className="inline-block bg-black text-white px-6 py-3 rounded-full font-medium hover:bg-gray-900 transition-colors dark:bg-white dark:text-black dark:hover:bg-gray-200"
                     >
                         {t('faq.stillHaveQuestions.cta')}
                     </Link>
