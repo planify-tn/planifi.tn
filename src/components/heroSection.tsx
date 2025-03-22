@@ -42,8 +42,6 @@ function HeroSection() {
                             width={800}
                             height={600}
                         />
-                        <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-black rounded-2xl rotate-12 -z-10"></div>
-                        <div className="absolute -top-6 -right-6 w-24 h-24 border-4 border-black rounded-full -z-10"></div>
                     </div>
                 </div>
             </div>
