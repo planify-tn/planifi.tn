@@ -79,7 +79,7 @@ function Footer() {
                     }
                 </div>
             </div>
-            <p className="py-8 text-base leading-6 text-center text-white">
+            <p className="py-8 text-base leading-6 text-center bg-black text-white">
                 {t('footer.copyright').replace('{year}', currentYear.toString())} <Link href={'https://maak-corp.tn'}><strong>MAAK CORP</strong></Link>
             </p>
         </footer>

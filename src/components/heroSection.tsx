@@ -10,18 +10,18 @@ import { localizedRoutes } from '../../i18n.config';
 function HeroSection() {
     const { t, locale } = useLocale();
     return (
-        <section className="py-20 bg-gradient-to-b from-gray-100 to-white">
+        <section className="py-20 ">
             <div className="container mx-auto px-4 lg:px-0 relative">
                 <div className="flex flex-col lg:flex-row items-center gap-8">
                     <div className="lg:w-1/2 flex flex-col gap-8">
 
-                        <span className="bg-black text-white px-3 py-1 w-fit rounded-full text-sm font-medium mb-4 inline-block">
+                        <span className="bg-black text-white dark:bg-white dark:text-black px-3 py-1 w-fit rounded-full text-sm font-medium mb-4 inline-block">
                             {t('hero.badge')}
                         </span>
 
                         <div>
-                            <h1 className="text-5xl md:text-6xl font-bold text-black mb-6 leading-tight">
-                                {t('hero.title')}, <span className="bg-black text-white px-4">{t('hero.highlight')} </span>
+                            <h1 className="text-5xl md:text-6xl font-bold text-black dark:text-white mb-6 leading-tight">
+                                {t('hero.title')}, <span className="bg-black text-white dark:bg-white dark:text-black px-4">{t('hero.highlight')} </span>
                             </h1>
                             <p className="text-xl text-gray-600 mb-8">
                                 {t('hero.description')}
@@ -29,7 +29,7 @@ function HeroSection() {
                         </div>
 
                         <Link href={localizedRoutes.request[locale]}
-                            className="group bg-black text-white px-8 py-4 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-gray-900 transition-all w-full lg:w-fit">
+                            className="group bg-black text-white dark:bg-white dark:text-black px-8 py-4 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-gray-900 transition-all w-full lg:w-fit">
                             {t('hero.cta')}
                             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                         </Link>
