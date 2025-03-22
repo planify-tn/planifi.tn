@@ -4,6 +4,7 @@ import Link from 'next/link';
 import React, { useState } from 'react'
 import { Menu, X } from 'lucide-react';
 import Image from 'next/image';
+import { ModeToggle } from './modeToggle';
 
 function Nav() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -61,6 +62,7 @@ function Nav() {
                     <Link href="/request" className="bg-white text-black px-6 py-2 rounded-full text-sm font-semibold hover:bg-gray-100 transition-colors">
                         Try Free
                     </Link>
+                    <ModeToggle />
                 </div>
 
                 {/* Mobile Menu Button */}

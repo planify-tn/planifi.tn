@@ -99,7 +99,7 @@ function SeoHead({
       />
 
       {/* Favicon */}
-      <link rel="icon" href="/favicon.ico" />
+      {/* <link rel="icon" href="/favicon.ico" /> */}
       <link rel="manifest" href="/site.webmanifest" />
     </Head>
   );
